@@ -1,0 +1,245 @@
+#+latex_class: cn-article
+#+latex_header: \lstset{language=c++,numbers=left,numberstyle=\tiny,basicstyle=\ttfamily\small,tabsize=4,frame=none,escapeinside=``,extendedchars=false,keywordstyle=\color{blue!70},commentstyle=\color{red!55!green!55!blue!55!},rulesepcolor=\color{red!20!green!20!blue!20!}}
+#+title: Software Engineering Spring 2016
+#+author: deepwaterooo
+
+* project design about QR Codes
+- patent: http://www.google.com/patents/CN103346892A?cl=zh
+
+- https://www.youtube.com/watch?v=CUAMBOaKj0I
+  - for android only
+  - gmail account, google apps account and Android device
+  - Identity cards: csv import (employee id, name, surname), create identity cards....
+  - UI: Arrival, Departure
+  - Departures are automatically matched with arrivals and total duration is counted. 
+  - more details, check for android: http://www.attendance.mobi/
+
+* QRCode scanner tutorial
+- http://code.tutsplus.com/tutorials/android-sdk-create-a-barcode-reader--mobile-17162
+
+* QR code generator
+- iPhone and Android, works for both~!
+- http://keremerkan.net/qr-code-and-2d-code-generator/, at least for iPhone, iPad: Qrafter, Qrafter Pro
+- Android Java: 
+  - Official ZXing ("Zebra Crossing"): https://github.com/zxing/zxing
+  - example using ZXing: http://www.journaldev.com/470/generate-qr-code-image-from-java-program
+  - QRGen: a simple QRCode generation api for java built on top ZXING: https://github.com/kenglxn/QRGen
+  - QR Codes in Java & Servlet: http://viralpatel.net/blogs/create-qr-codes-java-servlet-qr-code-java/
+  - 
+- 
+- 
+* RESTful web Server
+- http://www.journaldev.com/470/generate-qr-code-image-from-java-program
+
+** Google 6 steps introduction (for android?)
+- https://nataliecleveland.wordpress.com/2012/02/28/attendance-with-qr-code/
+** for iOS
+- https://techinmusiced.wordpress.com/2013/02/21/update-on-attendance-2-and-using-qr-codes-for-attendance/
+- http://www.engineerica.com/accuclass/accuclass-app
+** Some references: 
+- https://www.youtube.com/watch?v=B8FNCMF5gZA (I have NOT really finished this one, not sure if it helps.)
+
+* 6.Students Attendance Tracker - iOS and Android application designed for taking attendance in class
+
+Hi, classmate, 
+
+this comment is about PROJECT #6: Students Attendance Tracker. 
+
+Though this is for brainstorm project ideas, since my favorite project is somehow listed in #6 here already. I want to put some emphasize on this project so that there will be classmates who want to join and we form a team to make this project feasible for this software engineering spring semester. 
+
+I have one basic Android App for finger drawing for my previous course project (for a quick view, the project can be accessed at https://github.com/deepwaterooo/AndroidAppProgramming), so I have basic knowledge for Android app programming, while I don't have any iOS app experience yet. 
+
+I am commenting here to call for classmates who have iOS App experience or Java programming experience, or have interest in Android app programming to take some time think about it, and we together form a team, and make this project HAPPEN for the semester. 
+
+I don't have any clear idea about the main design or functionality about this app neither, but we will work on it. 
+
+Thanks. 
+deepwaterooo
+
+* Hi Team: 
+
+few things that I am still confused about this project. 
+1. I understand that we are going to re-build the sign in tracking app on Android and iOS devices but that is pretty much all I know about it. Can we have some more information? I would suggest if we can start a doc/scratch paper and just brainstorm something. 
+2. I know this trimester will end in may and considering we are all on full time working schedule, the time we actual have to work on it is not rich. So, maybe we need to speed things up a little bit? matter of fact, counting on the one time per week meet up at ITU isn't good enough in my opinion. 
+3. can we have our first team meeting before following Monday class? I am free anytime after 7pm. (somehow this questions should go first, I did it again) 
+
+Thoughts and comments are welcomed. I can totally understand if you can't make to the meeting bc of traffic or location or scheduling issues but nothing stopping you from communicating through emails :)) 
+
+hi team, 
+
+Thanks Todd for bring these ideas up, and I cannot agree with you more. 
+
+1. Requirement: Students attendance tracking app for Android and iOS devices for virtual classroom, and we may weak on virtual classroom side. I am on the same page as you are. On Last Monday evening, we mentioned this to course instructor, and team manager Nancy is responsible for writing to her and ask for previous project relative materials and information. Once we get those materials, we should have the base. 
+
+2. I liked this project a lot, and I would love to spend more time on this project to make it a successful, or at least fully-functional rather than previous team's complete failure experience. We could have team meeting a couple of times each week. One could simply be after Monday class ends, and we could schedule a fixed meeting time each week according to teammates. 
+
+3. As the project architecture, it was my mistake that I haven't prepared enough information for the project design yet. Considering our team's various background, I think we need close cooperation in order to make the project work. Only a couple of teammates have iOS app experience, and I don't even have Android testing background, a team meeting  before Monday's class will help a lot. 
+
+4. For meeting, I am open in the morning before 11:00am (or before 10:40), and after 6pm, while I am on campus on Tuesday, and Thursday evening as well for classes. So I would prefer meeting on Wednesday evening after 7pm, or in the morning or on Sunday evening. But I would have any problem with email/Wechat communications. By the way, my Wechat phone is: 4087070682, and id is: huang20140813. 
+
+5. I suggest that we all google and do some research on the mobile attendance app, come up with some ideas about functionality, basic ideas about attendance track, and virtual classroom, together with a choice of software engineering model and reason, and we will choose one. So that even we won't be able to make a meeting this weekend, we could have ideas collected for Monday's presentation. 
+
+Comment back with ideas. 
+
+** Here are some comments: 
+
+1. Tuesday evenging 5:40pm for meeting 20 minutes does NOT work for me. The reason I prefer after the course end is that I am occupied during 11:00am-6:00pm, and I am not available before 6:00pm unless it's in the morning hours. I hope this before/after class time meeting can be easy to reach an agreement. 
+
+2. I agree with Todd that meeting once and depends on class-time and 20 minutes meeting each week won't be able to make this project work. A second on campus meeting time will definitely help, but if it is really difficult to find a working time slot for all of us, we could consider online group meeting via all kinds of media. 
+
+If some members are unreachable or irresponsible, I am not sure if we will have to meet another time with only the fully-functional ones/members and feedback to curse instructor. Because I want to make this project work, rather than just pass the semester. 
+
+Hi Team, 
+
+So far after a little bit googling, I feel that I agree with Wincent's ideas about QRCode generating and scanning to take attendance for students who can use either iPhone/iPad or android phones (feels like tons of apps are out there already~!). Unless someone else comes up with better ideas or strong rejection about some modules, I think we are pretty much following this blueprint.  
+
+About the RESTFUL web service and API for instructors to generate barcode, I agree with the functionality which are required for the app, but theoretically, I haven't completely understood to how to design and implement them yet. But my opinion is that this idea is not creative and original, but it's feasible and practical for us to implement, and it can be a good practice for us to experience the whole process as a software engineering practice. 
+
+I have listed a few links which I think could be helpful for us to get some idea about the functionality. Vincent, if you have better links for design or open source sub-projects, please share as well. Let's google a little bit more and we will have the meeting after today's class to organize ideas, confirm functionality, design a flow chat for the implementation if we are clear enough about we need to do. 
+
+see you all in the evening. 
+
+* concerns
+
+Hi team, mainly Vincent, Todd, for design technical. 
+
+I have a few concerns that blocked me from falling asleep tonight. 
+
+1. I Suspect about Back-end server ping-pong real-time responding. To avoid hard-ware device, we changed the scanning to be from student side using mobile. When 100 students are scanning and pinging to the server at the same time, there would be delay and irresponding or even dead of the server. Would parallel be possible, or is there any way to walk around this?
+
+2. My android java QR code scanner, Todd's iOS (swift) scanner, and Vincent's Python framework (are you sure?) need to be compatible and be able to communicate. 
+
+3. Student side unique QR codes (or post information) could be a good choice to protect from cheating by insert cell phone number and extract wifi information from POST information, if this is something we can easily combine into our project. 
+
+4. We were forced to choose waterfall model, which means we stick to each stage goals. There are quite a few generators for both iOS and android, so Vincent, as the architect, I am not any person familiar with server side, so I still feel worried about the back-end server. We need a functional, demo-able mobile app project rather than anything fancy but eventually dead. So please make sure you have solutions for this. And if you have concerns and difficulties as well, let us know, and we could always focus on this server technical challenges first before we move on. 
+
+5. To ensure an effective discussion next Wednesday, let's (Todd, Vincent and me) post ideas, frameworks or solutions concerns about one day ahead so that others can digest the information and raise questions before the meeting. 
+
+thanks. 
+deepwaterooo
+
+Hi Vince, Todd, 
+
+I think REST is more a web framework style for HTTP calls, its efficient, but not the server overload problem solver. If 100 students are posting to the server, we will still have to consider distributed servers, which complicated the server so much. So i think the best way is still scan the students' QR Codes which were on their mobile phones from the course instructor's moible phone one by one (so we won't have any overload server problem). But this will require more work on Todd's and my front end app side. Todd, could you please help verify this server technical bottleneck as well? I just felt I have not been convince by Vince's listed out yesterday at all. 
+
+I am into the patent paper from http://www.google.com/patents/CN103346892A?cl=zh, which is pretty good, ideas are straight forward. A couple of technical difficulties for wifi extraction/identification, which limits the cheating to have to be inside the building (inside the building the wifi doesn't help anymore for detecting cheating). Instead of paper QR Codes for attenders, we send unique QR Codes to students, store in the app somewhere, and make is uncopyable if posible. Let me know what you guys think. 
+
+
+To process concurrent requests is a common thing when you are building a web server, right? That's why I'm saying that the current framework for REST api should have mechanism to handle that. I do some search on Flask (A Python framework) and there are ways to handle concurrent requests. 
+
+1. You can enable threads in Flask. 2. You can deploy your Flask program on Apache server, and Apache will help to handle it. See the link below: 
+
+http://stackoverflow.com/questions/14814201/can-i-serve-multiple-clients-using-just-flask-app-run-as-standalone
+http://stackoverflow.com/questions/14672753/handling-multiple-requests-in-flask
+
+Also, I believe for our demo purpose, not a production, the number of concurrent requests should not be too large, so a distributed server is not needed. 
+
+The reason I don't like one-by-one scanning is that it takes time and students need to stand in queue. My original thought is that students can sit on their own chairs and do a QRCode scan and all set, which saves time. Well that's my personal thought and I will agree to others. Technically both are easy to implement. 
+
+Hi Vince, 
+
+I believe you are right that current framework for REST api has mechanism to handle multi-client calls, and that for demo propose, the number of concurrent requrests won't be too large, so there is no need for distributed servers. 
+
+And just like you, I don't like the one by one long waiting as well. The reason I was kind of want to follow the patent paper was thinking about production. When we design, we want a good design which can go for production, and I have expected the well-designed project though I stated demo-able in previous email. As the team project named "Dorky" monkey, I am a person kind of dorky as well, and I would love to follow authority rather than random design without deep thinking, or which may run into various kinds of limitations for usage later on. I have thought that this project may server as the second/third generation of attendance tracking for ITU later on, but while, so far, maybe demo-able and use concurrency could be a good software engineering practice already, or we may run into difficulties to make a demo-able one. 
+
+Though I felt slightly pity that the design or architecture of the project is not very salable, and most probably not developer-friendly for re-factoring neither, the design is still user-friendly for students. Just as Todd gave up saying anything, or maybe suspect that I have swapped roles, and you have enough confidence in your server and framework, I don't have problem with this design any more then. 
+
+Please continue help prepare for the potential demo for coming meeting, and I may still have lots of questions about your server as well. :) And if you have any concerns about front side, please don't hesitate to point them out as well. 
+
+thanks.
+deepwaterooo
+
+Hi Deepwaterooo£¬
+
+I agree with you that when design, we should consider that it may finally become production and we need to think about the extensibility. I haven't gone into the detailed design yet because we haven't decided how our app works. I'm just doing some practice with Flask, AWS, MongoDB to see if it is a good choice. 
+
+For the server side, why do you think the current design is not developer-friendly for re-factoring? Can you explain in more details? I'm wondering that are you preferring to design a regular web server rather than REST, or something else?
+
+Vince
+
+Vince, 
+
+I think we have decided the five basic functionalities on Monday evening if I remember correctly. By the way, Todd, the documents recording the fucntionalities and work distribution you made and you shared with PM, could you please share with the rest of team as well? thanks. 
+
+According to Monday's team meeting, Vic for testing, Vis so far goes together with PM for BRD, later on you will work on the server, I am on Android, and Todd will be for iOS. And up to coming meeting, we three, you, Todd and I need to do more research on QRCode. 
+
+Monday's meeting we tried to figure out how should our app work. Since it was the first time we discuss about the ideas, I liked the efficiency of all the classmates scanning course instructor's QRCode at the same time, but only thought about the bottleneck later on when i tried to think it through, and that's the reason I pointed it out. And according to this experience, I suggest if we do the research, and get some ideas, would it be possible/ok that we list them out about one day before so that I could google and digest the new ideas deeper and better before I go the meeting. 
+I am not a person on server side, but rather with limited basic knowledge about distributed systems. We will need to report progress on Monday, and we will have one meeting coming Wednesday, potentially solve most of the problems about design. I am saying "most probably" (not developer-friendly for re-factoring neither) not specifically for server side, but rather an impression that when we need a discussion, we go into a silence, so it will most probably end-up with each person one module, the contents, the detailed design, who takes the effort to care that much? That's my impression. Not for server side specifically, so please don't take it personally. 
+
+My limited basic knowledge is on distributed system side, that's reason I tried to remind and understand the concern. As I stated earlier, i am not a person on server side, so I don't have any further questions on your server side. If you perfer to design a regular web server rather than REST, sorry, I can not offer any opinion on this. 
+
+deepwaterooo
+
+* Requirements
+UML, 
+use case diagrams
+- figure out the requirements. 
+
+- user story
+- use case
+- PM: approach of communicating with customer, online meeting or/vs email project contents (ok or not?)
+   - stakeholder
+   - user
+   - custom: course instructor. Half an hour meeting, email, what (five? prioritize) are going into the project. 
+
+* stage of team development
+- Tuckman's ladder: 4 stages, 5?
+  - Forming
+  - Storming
+  - Adjourning
+  - Norming: work together
+  - Performing
+- Common Team problems
+
+* System Architecture
+  - software architecture
+  - 
+
+* Meeting Minutes
+
+** 2/20/2016
+Software Engineering Week 3 Meeting - 20 Feb 2016
+
+Meeting called to order at 5:30pm by PM Nancy Chiang.
+
+*** Members present:
+- Todd
+- Vince
+- Nancy
+ 
+*** Members not present:
+- Heyan
+- Vikas
+
+*** Reading of Agenda
+ 
+Motion: To outline meeting method, frequency, and frame of the whole project.
+Resolved: Agenda for the meeting for next meeting on 03/07 approved.
+ 
+Approval of Minutes
+ 
+Motion: To review the meeting outcomes from last meeting on 02/08.
+Resolved: Minutes from the meeting on 02/08 approved without modification.
+ 
+*** Motions
+-  Necessary documentation for the project:
+  - BRD - Business Requirement Documentation
+  - SRS - Software Requirement Specification
+  - Testing Documentation
+
+-  Motion for BRD:
+1.     Who: Nancy
+2.     Business-orientated information included project introduction, project process and project business requirement.
+3.     Motion to 03/07 meeting: to build rough frame of BRD and to start to work on contents.
+
+-  Motion for SRS:
+1.     Who: Vince, Todd, and Heyan
+2.     Functionality, UML and ERD, and technological requirement
+  -  Functionality includes brief and Mock-UP
+  -  UML included ERD and UI, ERD will provide information to User Case in BRD.
+3.     Motion to 03/07 meeting: to build rough frame of Functionality and ERD.
+ 
+*** Discussions
+- Topic: To select method to prevent attendance cheating
+- Solution: limited time to response to RQ code provided by instructor during class
+- Meeting adjourned at 7:00pm.
