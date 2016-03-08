@@ -9,41 +9,71 @@
 		tools:context="dev.dorkymonkey.MainActivity" >
 
   <LinearLayout
-      android:orientation="horizontal" 
+      android:orientation="vertical" 
       android:layout_width="fill_parent"
       android:layout_height="fill_parent"
-      android:layout_weight="1"
       android:layout_gravity="center" >
 
-    <ImageButton
-	android:id="@+id/arr_btn"
+    <TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/text1"
+	android:text="@string/dorky"
+	android:gravity="center"
+	android:layout_marginTop="10dp"
+	android:textStyle="bold"
+	android:textColor="#ff00ff"
+	android:textColorHighlight="#000000"
+	android:textIsSelectable="true"
+	android:fontFamily="Arial"
+	android:typeface="serif"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+	android:orientation="horizontal" 
 	android:layout_width="wrap_content"
-	android:layout_height="fill_parent"
-	android:layout_weight="1"
-	android:contentDescription="@string/arrival"
-	android:src="@drawable/arrival" />
-    <ImageButton
-	android:id="@+id/dep_btn"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center" >
+
+      <ImageButton
+	  android:id="@+id/account_btn"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1"
+	  android:contentDescription="@string/arrival"
+	  android:src="@drawable/account" />
+      <ImageButton
+	  android:id="@+id/camera_btn"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1"
+	  android:contentDescription="@string/departure"
+	  android:src="@drawable/androidcamera" />
+    </LinearLayout>
+
+    <ImageView
+	android:id="@+id/img_android"
 	android:layout_width="wrap_content"
-	android:layout_height="fill_parent"
-	android:layout_weight="1"
-	android:contentDescription="@string/departure"
-	android:src="@drawable/departure" />
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:src="@drawable/android"/>
+
+    <TextView
+	android:id="@+id/scan_format"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textIsSelectable="true"
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/account_btn" />
+    <TextView
+	android:id="@+id/scan_content"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textIsSelectable="true"
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/scan_format" />
+
+    
   </LinearLayout>
-  
-  <TextView
-      android:id="@+id/scan_format"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:textIsSelectable="true"
-      android:layout_centerHorizontal="true"
-      android:layout_below="@id/arr_btn" />
-  <TextView
-      android:id="@+id/scan_content"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:textIsSelectable="true"
-      android:layout_centerHorizontal="true"
-      android:layout_below="@id/scan_format" />
 
 </RelativeLayout>

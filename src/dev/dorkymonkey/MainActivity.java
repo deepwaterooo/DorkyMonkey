@@ -19,7 +19,7 @@ import android.widget.Toast;
 //public class MainActivity extends ActionBarActivity {
 public class MainActivity extends Activity implements OnClickListener {
 
-    private ImageButton arrBtn;
+    private ImageButton accountBtn, cameraBtn;
     private TextView fmtTxt, contentTxt;
     
 	@Override
@@ -27,21 +27,25 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
         
-        arrBtn = (ImageButton)findViewById(R.id.arr_btn);
-        arrBtn.setOnClickListener(this);
+        accountBtn = (ImageButton)findViewById(R.id.account_btn);
+        accountBtn.setOnClickListener(this);
+        cameraBtn = (ImageButton)findViewById(R.id.camera_btn);
+        cameraBtn.setOnClickListener(this);
+
         fmtTxt = (TextView)findViewById(R.id.scan_format);
         contentTxt = (TextView)findViewById(R.id.scan_content);
-                
 	}
 
     public void onClick(View v) {
         // respond to clicks
-        if(v.getId() == R.id.arr_btn) {
+        if(v.getId() == R.id.account_btn) {
+            Intent a = new Intent(this, Account.class);
+            startActivity(a);
+        } else if (v.getId() == R.id.camera_btn) {
             // scan
-            IntentIntegrator scanIntegrator = new IntentIntegrator(this);
-            scanIntegrator.initiateScan();
+              IntentIntegrator scanIntegrator = new IntentIntegrator(this);
+              scanIntegrator.initiateScan();
         }
-
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {

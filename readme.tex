@@ -1,4 +1,4 @@
-% Created 2016-02-22 Mon 19:09
+% Created 2016-03-07 Mon 21:26
 \documentclass[9pt,b5paper]{article}
 \usepackage{graphicx}
 \usepackage{xcolor}
@@ -23,7 +23,7 @@
 \lstset{language=c++,numbers=left,numberstyle=\tiny,basicstyle=\ttfamily\small,tabsize=4,frame=none,escapeinside=``,extendedchars=false,keywordstyle=\color{blue!70},commentstyle=\color{red!55!green!55!blue!55!},rulesepcolor=\color{red!20!green!20!blue!20!}}
 \author{deepwaterooo}
 \date{\today}
-\title{Software Engineering}
+\title{Software Engineering Spring 2016}
 \hypersetup{
   pdfkeywords={},
   pdfsubject={},
@@ -34,8 +34,20 @@
 \tableofcontents
 
 
-\section{project design about QR Codes}
+\section{3/7/2015}
 \label{sec-1}
+\begin{itemize}
+\item The overall designed still follows Vince's inital QRCode ideas, with modifications for detailed design with Todd, and I (server bandwidth potential issues were postphoned to be lower priority than overall framework flow).
+\item SRS was reassigned to Todd.
+\item Half done with basic Android layout, but need to make views look nice still.
+\item Demoed partially done app to teammates today after class, required concrete images and coordinates for both android and iOS side from both Todd and Vince. And will modify parameters exactly like mock when I receive images and coordinates from Todd.
+\item THREE more views need to generate, before scanning QRCode, thank you page after finish scanning, and a reminder for confirmation page after scanning before posting to the server (which view needs to be mocked still as well).
+\item \textbf{Technically challenges:} how to post information to server from app, and how to receive feedback information if we include this latter part in our project as well.
+\item Will continue work on this one as lower priority recently.
+\end{itemize}
+
+\section{project design about QR Codes}
+\label{sec-2}
 \begin{itemize}
 \item patent: \url{http://www.google.com/patents/CN103346892A?cl=zh}
 
@@ -51,13 +63,13 @@
 \end{itemize}
 
 \section{QRCode scanner tutorial}
-\label{sec-2}
+\label{sec-3}
 \begin{itemize}
 \item \url{http://code.tutsplus.com/tutorials/android-sdk-create-a-barcode-reader--mobile-17162}
 \end{itemize}
 
 \section{QR code generator}
-\label{sec-3}
+\label{sec-4}
 \begin{itemize}
 \item iPhone and Android, works for both\textasciitilde{}!
 \item \url{http://keremerkan.net/qr-code-and-2d-code-generator/}, at least for iPhone, iPad: Qrafter, Qrafter Pro
@@ -67,36 +79,34 @@
 \item example using ZXing: \url{http://www.journaldev.com/470/generate-qr-code-image-from-java-program}
 \item QRGen: a simple QRCode generation api for java built on top ZXING: \url{https://github.com/kenglxn/QRGen}
 \item QR Codes in Java \& Servlet: \url{http://viralpatel.net/blogs/create-qr-codes-java-servlet-qr-code-java/}
-\item 
 \end{itemize}
-\item 
-\item 
 \end{itemize}
+
 \section{RESTful web Server}
-\label{sec-4}
+\label{sec-5}
 \begin{itemize}
 \item \url{http://www.journaldev.com/470/generate-qr-code-image-from-java-program}
 \end{itemize}
 
 \subsection{Google 6 steps introduction (for android?)}
-\label{sec-4-1}
+\label{sec-5-1}
 \begin{itemize}
 \item \url{https://nataliecleveland.wordpress.com/2012/02/28/attendance-with-qr-code/}
 \end{itemize}
 \subsection{for iOS}
-\label{sec-4-2}
+\label{sec-5-2}
 \begin{itemize}
 \item \url{https://techinmusiced.wordpress.com/2013/02/21/update-on-attendance-2-and-using-qr-codes-for-attendance/}
 \item \url{http://www.engineerica.com/accuclass/accuclass-app}
 \end{itemize}
 \subsection{Some references:}
-\label{sec-4-3}
+\label{sec-5-3}
 \begin{itemize}
 \item \url{https://www.youtube.com/watch?v=B8FNCMF5gZA} (I have NOT really finished this one, not sure if it helps.)
 \end{itemize}
 
 \section{6.Students Attendance Tracker - iOS and Android application designed for taking attendance in class}
-\label{sec-5}
+\label{sec-6}
 
 Hi, classmate, 
 
@@ -114,7 +124,7 @@ Thanks.
 deepwaterooo
 
 \section{Hi Team:}
-\label{sec-6}
+\label{sec-7}
 
 few things that I am still confused about this project. 
 \begin{enumerate}
@@ -144,7 +154,7 @@ Thanks Todd for bring these ideas up, and I cannot agree with you more.
 Comment back with ideas. 
 
 \subsection{Here are some comments:}
-\label{sec-6-1}
+\label{sec-7-1}
 
 \begin{enumerate}
 \item Tuesday evenging 5:40pm for meeting 20 minutes does NOT work for me. The reason I prefer after the course end is that I am occupied during 11:00am-6:00pm, and I am not available before 6:00pm unless it's in the morning hours. I hope this before/after class time meeting can be easy to reach an agreement.
@@ -165,7 +175,7 @@ I have listed a few links which I think could be helpful for us to get some idea
 see you all in the evening. 
 
 \section{concerns}
-\label{sec-7}
+\label{sec-8}
 
 Hi team, mainly Vincent, Todd, for design technical. 
 
@@ -241,7 +251,7 @@ My limited basic knowledge is on distributed system side, that's reason I tried 
 deepwaterooo
 
 \section{Requirements}
-\label{sec-8}
+\label{sec-9}
 UML, 
 use case diagrams
 \begin{itemize}
@@ -258,7 +268,7 @@ use case diagrams
 \end{itemize}
 
 \section{stage of team development}
-\label{sec-9}
+\label{sec-10}
 \begin{itemize}
 \item Tuckman's ladder: 4 stages, 5?
 \begin{itemize}
@@ -272,22 +282,91 @@ use case diagrams
 \end{itemize}
 
 \section{System Architecture}
-\label{sec-10}
+\label{sec-11}
 \begin{itemize}
 \item software architecture
 \item 
 \end{itemize}
 
 \section{Meeting Minutes}
-\label{sec-11}
+\label{sec-12}
+\subsection{2/29/2016}
+\label{sec-12-1}
+\begin{itemize}
+\item Balsamiq, tools
+\end{itemize}
+
+Software Engineering Week 4 Meeting - 29 Feb 2016
+
+Meeting called to order at 7:20pm by PM Nancy Chiang.
+
+Members present:
+\begin{itemize}
+\item Todd
+\item Vince
+\item Nancy
+\item Heyan
+\end{itemize}
+
+Members not present:
+\begin{itemize}
+\item Vikas
+\end{itemize}
+
+Reading of Agenda
+
+\begin{itemize}
+\item Motion: To analysis project elements
+\item Resolved: Agenda for the meeting for next meeting on 03/07 approved.
+\end{itemize}
+
+Approval of Minutes
+
+\begin{itemize}
+\item Motion: To review the meeting outcomes from the last meeting on 02/22.
+\item Resolved: Minutes from the meeting on 02/22 approved without modification.
+\end{itemize}
+
+Motions
+
+\begin{itemize}
+\item Necessary documentation for the project:
+\begin{itemize}
+\item BRD - Business Requirement Documentation
+\item SRS - Software Requirement Specification
+\item Testing Documentation
+\end{itemize}
+
+\item Motion for REVISED WBS: (work breakdown with ownership)
+\item Todd - Mock up 3.5H (mobile 1.5H + web page 2H)
+\item Vincent - ERD 6H
+\item Nancy - BRD 8H
+\item Vikas - User Case 6H
+\item Todd and Vikas - testing strategy 9H
+\item Todd and Heyan - technology requirements (SRS) 12H
+\item Heyan - Android prototype 40H
+\item Vincent - server prototype 40H
+\item Nancy - project management (team meeting, progress reports) 20H
+\end{itemize}
+
+Discussions
+
+\begin{itemize}
+\item Topic: To decide elements/works hours to functional propose.
+
+\item Solution: Revised WBS is settled
+\end{itemize}
+
+Meeting adjourned at 8:30pm.
+
 \subsection{2/20/2016}
-\label{sec-11-1}
+\label{sec-12-2}
 Software Engineering Week 3 Meeting - 20 Feb 2016
 
 Meeting called to order at 5:30pm by PM Nancy Chiang.
 
 \subsubsection{Members present:}
-\label{sec-11-1-1}
+\label{sec-12-2-1}
 \begin{itemize}
 \item Todd
 \item Vince
@@ -295,14 +374,14 @@ Meeting called to order at 5:30pm by PM Nancy Chiang.
 \end{itemize}
 
 \subsubsection{Members not present:}
-\label{sec-11-1-2}
+\label{sec-12-2-2}
 \begin{itemize}
 \item Heyan
 \item Vikas
 \end{itemize}
 
 \subsubsection{Reading of Agenda}
-\label{sec-11-1-3}
+\label{sec-12-2-3}
 
 Motion: To outline meeting method, frequency, and frame of the whole project.
 Resolved: Agenda for the meeting for next meeting on 03/07 approved.
@@ -313,7 +392,7 @@ Motion: To review the meeting outcomes from last meeting on 02/08.
 Resolved: Minutes from the meeting on 02/08 approved without modification.
 
 \subsubsection{Motions}
-\label{sec-11-1-4}
+\label{sec-12-2-4}
 \begin{itemize}
 \item Necessary documentation for the project:
 \begin{itemize}
@@ -338,7 +417,7 @@ Resolved: Minutes from the meeting on 02/08 approved without modification.
 \end{itemize}
 
 \subsubsection{Discussions}
-\label{sec-11-1-5}
+\label{sec-12-2-5}
 \begin{itemize}
 \item Topic: To select method to prevent attendance cheating
 \item Solution: limited time to response to RQ code provided by instructor during class
