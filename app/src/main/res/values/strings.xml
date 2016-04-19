@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DorkyMonkey</string>
+    <string name="action_settings">DorkyMonkey</string>
+    <string name="account_title">Account Login</string>
+    <string name="dorky">Dorky In</string>
+    <string name="clear">Clear</string>
+    <string name="signin">Sign In</string>
+
+    <string name="arrival">Arrival</string>
+    <string name="departure">Departure</string>
+    <string name="scan">Scan</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="scan_text">Put QRCode in the middle, will scan immediately...</string>
+
+</resources>

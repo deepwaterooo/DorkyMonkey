@@ -3,18 +3,21 @@
 #+title: Software Engineering Spring 2016
 #+author: deepwaterooo
 
-* 3/7/2015
-- The overall designed still follows Vince's inital QRCode ideas, with modifications for detailed design with Todd, and I (server bandwidth potential issues were postphoned to be lower priority than overall framework flow). 
-- SRS was reassigned to Todd.
-- Half done with basic Android layout, but need to make views look nice still.
-- Demoed partially done app to teammates today after class, required concrete images and coordinates for both android and iOS side from both Todd and Vince. And will modify parameters exactly like mock when I receive images and coordinates from Todd. 
-- THREE more views need to generate, before scanning QRCode, thank you page after finish scanning, and a reminder for confirmation page after scanning before posting to the server (which view needs to be mocked still as well).
-- *Technically challenges:* how to post information to server from app, and how to receive feedback information if we include this latter part in our project as well.
-- Will continue work on this one as lower priority recently. 
+* most recent comments
+- I could simply include Zxing.jar for simplisity, but since I simplified package name firstly, I just manually added all the Necessary classes that are needed for compile. 
+- Will try to understand this jar. 
+- Debugging for app, wil update later. 
+- 
+* References
+- http://blog.csdn.net/xiaanming/article/details/10163203
+- https://github.com/dyzhangweix/QR_CodeScan
+- 
+- 
+- 
+- 
 
 * project design about QR Codes
 - patent: http://www.google.com/patents/CN103346892A?cl=zh
-
 - https://www.youtube.com/watch?v=CUAMBOaKj0I
   - for android only
   - gmail account, google apps account and Android device
@@ -48,7 +51,7 @@
 
 * 6.Students Attendance Tracker - iOS and Android application designed for taking attendance in class
 
-Hi, classmate, 
+** Hi, classmate, 
 
 this comment is about PROJECT #6: Students Attendance Tracker. 
 
@@ -63,7 +66,7 @@ I don't have any clear idea about the main design or functionality about this ap
 Thanks. 
 deepwaterooo
 
-* Hi Team: 
+** Hi Team: 
 
 few things that I am still confused about this project. 
 1. I understand that we are going to re-build the sign in tracking app on Android and iOS devices but that is pretty much all I know about it. Can we have some more information? I would suggest if we can start a doc/scratch paper and just brainstorm something. 
@@ -72,7 +75,7 @@ few things that I am still confused about this project.
 
 Thoughts and comments are welcomed. I can totally understand if you can't make to the meeting bc of traffic or location or scheduling issues but nothing stopping you from communicating through emails :)) 
 
-hi team, 
+** hi team, 
 
 Thanks Todd for bring these ideas up, and I cannot agree with you more. 
 
@@ -96,7 +99,7 @@ Comment back with ideas.
 
 If some members are unreachable or irresponsible, I am not sure if we will have to meet another time with only the fully-functional ones/members and feedback to curse instructor. Because I want to make this project work, rather than just pass the semester. 
 
-Hi Team, 
+** Hi Team, 
 
 So far after a little bit googling, I feel that I agree with Wincent's ideas about QRCode generating and scanning to take attendance for students who can use either iPhone/iPad or android phones (feels like tons of apps are out there already~!). Unless someone else comes up with better ideas or strong rejection about some modules, I think we are pretty much following this blueprint.  
 
@@ -106,7 +109,7 @@ I have listed a few links which I think could be helpful for us to get some idea
 
 see you all in the evening. 
 
-* concerns
+** concerns
 
 Hi team, mainly Vincent, Todd, for design technical. 
 
@@ -125,7 +128,7 @@ I have a few concerns that blocked me from falling asleep tonight.
 thanks. 
 deepwaterooo
 
-Hi Vince, Todd, 
+** Hi Vince, Todd, 
 
 I think REST is more a web framework style for HTTP calls, its efficient, but not the server overload problem solver. If 100 students are posting to the server, we will still have to consider distributed servers, which complicated the server so much. So i think the best way is still scan the students' QR Codes which were on their mobile phones from the course instructor's moible phone one by one (so we won't have any overload server problem). But this will require more work on Todd's and my front end app side. Todd, could you please help verify this server technical bottleneck as well? I just felt I have not been convince by Vince's listed out yesterday at all. 
 

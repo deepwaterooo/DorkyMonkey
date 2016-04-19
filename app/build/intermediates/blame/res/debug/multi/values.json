@@ -1,0 +1,3566 @@
+[
+    {
+        "outputFile": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endLine": 35,
+                    "endColumn": 17,
+                    "endOffset": 828
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 833,
+                    "endLine": 40,
+                    "endColumn": 17,
+                    "endOffset": 1063
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1068,
+                    "endLine": 45,
+                    "endColumn": 17,
+                    "endOffset": 1233
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/arrays.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 1238,
+                    "endColumn": 54,
+                    "endOffset": 1288
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 1293,
+                    "endColumn": 61,
+                    "endOffset": 1350
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1355,
+                    "endColumn": 51,
+                    "endOffset": 1402
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 1407,
+                    "endColumn": 57,
+                    "endOffset": 1460
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 1465,
+                    "endColumn": 52,
+                    "endOffset": 1513
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 1518,
+                    "endColumn": 58,
+                    "endOffset": 1572
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 1577,
+                    "endColumn": 55,
+                    "endOffset": 1628
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 1633,
+                    "endColumn": 59,
+                    "endOffset": 1688
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 1693,
+                    "endColumn": 58,
+                    "endOffset": 1747
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 1752,
+                    "endColumn": 55,
+                    "endOffset": 1803
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 1808,
+                    "endColumn": 62,
+                    "endOffset": 1866
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 1871,
+                    "endColumn": 63,
+                    "endOffset": 1930
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 1935,
+                    "endColumn": 58,
+                    "endOffset": 1989
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 1994,
+                    "endColumn": 64,
+                    "endOffset": 2054
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 2059,
+                    "endColumn": 61,
+                    "endOffset": 2116
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 2121,
+                    "endColumn": 60,
+                    "endOffset": 2177
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 2182,
+                    "endColumn": 59,
+                    "endOffset": 2237
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 2242,
+                    "endColumn": 60,
+                    "endOffset": 2298
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 2303,
+                    "endColumn": 61,
+                    "endOffset": 2360
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 2365,
+                    "endColumn": 64,
+                    "endOffset": 2425
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 2430,
+                    "endColumn": 65,
+                    "endOffset": 2491
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 2496,
+                    "endColumn": 61,
+                    "endOffset": 2553
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 2558,
+                    "endColumn": 63,
+                    "endOffset": 2617
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 2622,
+                    "endColumn": 53,
+                    "endOffset": 2671
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 2676,
+                    "endColumn": 65,
+                    "endOffset": 2737
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 2742,
+                    "endColumn": 63,
+                    "endOffset": 2801
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 2806,
+                    "endColumn": 62,
+                    "endOffset": 2864
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 2869,
+                    "endColumn": 58,
+                    "endOffset": 2923
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 2928,
+                    "endColumn": 52,
+                    "endOffset": 2976
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 2981,
+                    "endColumn": 55,
+                    "endOffset": 3032
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 3037,
+                    "endColumn": 53,
+                    "endOffset": 3086
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 3091,
+                    "endColumn": 59,
+                    "endOffset": 3146
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 3151,
+                    "endColumn": 44,
+                    "endOffset": 3191
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 3196,
+                    "endColumn": 55,
+                    "endOffset": 3247
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 3252,
+                    "endColumn": 48,
+                    "endOffset": 3296
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 3301,
+                    "endColumn": 58,
+                    "endOffset": 3355
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 3360,
+                    "endColumn": 61,
+                    "endOffset": 3417
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 3422,
+                    "endColumn": 66,
+                    "endOffset": 3484
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 3489,
+                    "endColumn": 66,
+                    "endOffset": 3551
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 3556,
+                    "endColumn": 66,
+                    "endOffset": 3618
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 3623,
+                    "endColumn": 67,
+                    "endOffset": 3686
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 3691,
+                    "endColumn": 62,
+                    "endOffset": 3749
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 3754,
+                    "endColumn": 64,
+                    "endOffset": 3814
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 3819,
+                    "endColumn": 68,
+                    "endOffset": 3883
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3888,
+                    "endColumn": 57,
+                    "endOffset": 3941
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3946,
+                    "endColumn": 57,
+                    "endOffset": 3999
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 4004,
+                    "endColumn": 67,
+                    "endOffset": 4067
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 4072,
+                    "endColumn": 54,
+                    "endOffset": 4122
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 4127,
+                    "endColumn": 58,
+                    "endOffset": 4181
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 4186,
+                    "endColumn": 57,
+                    "endOffset": 4239
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 4244,
+                    "endColumn": 62,
+                    "endOffset": 4302
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 4307,
+                    "endColumn": 57,
+                    "endOffset": 4360
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 4365,
+                    "endColumn": 62,
+                    "endOffset": 4423
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 4428,
+                    "endColumn": 62,
+                    "endOffset": 4486
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 4491,
+                    "endColumn": 50,
+                    "endOffset": 4537
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4542,
+                    "endColumn": 66,
+                    "endOffset": 4604
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4609,
+                    "endColumn": 60,
+                    "endOffset": 4665
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4670,
+                    "endColumn": 65,
+                    "endOffset": 4731
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4736,
+                    "endColumn": 72,
+                    "endOffset": 4804
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4809,
+                    "endColumn": 69,
+                    "endOffset": 4874
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4879,
+                    "endColumn": 66,
+                    "endOffset": 4941
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4946,
+                    "endColumn": 62,
+                    "endOffset": 5004
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 5009,
+                    "endColumn": 40,
+                    "endOffset": 5045
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 5050,
+                    "endColumn": 62,
+                    "endOffset": 5108
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 5113,
+                    "endColumn": 75,
+                    "endOffset": 5184
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 5189,
+                    "endColumn": 61,
+                    "endOffset": 5246
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 5251,
+                    "endColumn": 72,
+                    "endOffset": 5319
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 5324,
+                    "endColumn": 77,
+                    "endOffset": 5397
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 5402,
+                    "endColumn": 59,
+                    "endOffset": 5457
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 5462,
+                    "endColumn": 60,
+                    "endOffset": 5518
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 5523,
+                    "endColumn": 74,
+                    "endOffset": 5593
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 5598,
+                    "endColumn": 75,
+                    "endOffset": 5669
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 5674,
+                    "endColumn": 49,
+                    "endOffset": 5719
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5724,
+                    "endColumn": 47,
+                    "endOffset": 5767
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5772,
+                    "endColumn": 58,
+                    "endOffset": 5826
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5831,
+                    "endColumn": 53,
+                    "endOffset": 5880
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5885,
+                    "endColumn": 49,
+                    "endOffset": 5930
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5935,
+                    "endColumn": 47,
+                    "endOffset": 5978
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5983,
+                    "endColumn": 47,
+                    "endOffset": 6026
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 6031,
+                    "endColumn": 47,
+                    "endOffset": 6074
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 6079,
+                    "endColumn": 47,
+                    "endOffset": 6122
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 6127,
+                    "endColumn": 52,
+                    "endOffset": 6175
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 6180,
+                    "endColumn": 51,
+                    "endOffset": 6227
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 11802,
+                    "endColumn": 61,
+                    "endOffset": 11859
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 11864,
+                    "endColumn": 67,
+                    "endOffset": 11927
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 11932,
+                    "endColumn": 63,
+                    "endOffset": 11991
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 11996,
+                    "endColumn": 64,
+                    "endOffset": 12056
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 12061,
+                    "endColumn": 68,
+                    "endOffset": 12125
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 12130,
+                    "endColumn": 68,
+                    "endOffset": 12194
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 12199,
+                    "endColumn": 64,
+                    "endOffset": 12259
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 12264,
+                    "endColumn": 65,
+                    "endOffset": 12325
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 12330,
+                    "endColumn": 61,
+                    "endOffset": 12387
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 12392,
+                    "endColumn": 59,
+                    "endOffset": 12447
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 12452,
+                    "endColumn": 58,
+                    "endOffset": 12506
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 12511,
+                    "endColumn": 59,
+                    "endOffset": 12566
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 12571,
+                    "endColumn": 65,
+                    "endOffset": 12632
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 12637,
+                    "endColumn": 66,
+                    "endOffset": 12699
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 12704,
+                    "endColumn": 57,
+                    "endOffset": 12757
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 12762,
+                    "endColumn": 64,
+                    "endOffset": 12822
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 12827,
+                    "endColumn": 63,
+                    "endOffset": 12886
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 12891,
+                    "endColumn": 57,
+                    "endOffset": 12944
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 12949,
+                    "endColumn": 55,
+                    "endOffset": 13000
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 13005,
+                    "endColumn": 66,
+                    "endOffset": 13067
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 13072,
+                    "endColumn": 67,
+                    "endOffset": 13135
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 13140,
+                    "endColumn": 67,
+                    "endOffset": 13203
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 13208,
+                    "endColumn": 67,
+                    "endOffset": 13271
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 13276,
+                    "endColumn": 56,
+                    "endOffset": 13328
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 13333,
+                    "endColumn": 48,
+                    "endOffset": 13377
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 170,
+                    "startColumn": 4,
+                    "startOffset": 13382,
+                    "endColumn": 50,
+                    "endOffset": 13428
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 13433,
+                    "endColumn": 39,
+                    "endOffset": 13468
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 13473,
+                    "endColumn": 35,
+                    "endOffset": 13504
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 13509,
+                    "endColumn": 42,
+                    "endOffset": 13547
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 13552,
+                    "endColumn": 45,
+                    "endOffset": 13593
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 13598,
+                    "endColumn": 33,
+                    "endOffset": 13627
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 13632,
+                    "endColumn": 49,
+                    "endOffset": 13677
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 13682,
+                    "endColumn": 46,
+                    "endOffset": 13724
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 13729,
+                    "endColumn": 48,
+                    "endOffset": 13773
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 13778,
+                    "endColumn": 33,
+                    "endOffset": 13807
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 180,
+                    "startColumn": 4,
+                    "startOffset": 13812,
+                    "endColumn": 44,
+                    "endOffset": 13852
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 181,
+                    "startColumn": 4,
+                    "startOffset": 13857,
+                    "endColumn": 47,
+                    "endOffset": 13900
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 13905,
+                    "endColumn": 54,
+                    "endOffset": 13955
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 13960,
+                    "endColumn": 73,
+                    "endOffset": 14029
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 184,
+                    "startColumn": 4,
+                    "startOffset": 14034,
+                    "endColumn": 69,
+                    "endOffset": 14099
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 14104,
+                    "endColumn": 77,
+                    "endOffset": 14177
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 186,
+                    "startColumn": 4,
+                    "startOffset": 14182,
+                    "endColumn": 53,
+                    "endOffset": 14231
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 14236,
+                    "endColumn": 69,
+                    "endOffset": 14301
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 14306,
+                    "endColumn": 84,
+                    "endOffset": 14386
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 14391,
+                    "endColumn": 72,
+                    "endOffset": 14459
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 190,
+                    "startColumn": 4,
+                    "startOffset": 14464,
+                    "endColumn": 73,
+                    "endOffset": 14533
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 14538,
+                    "endColumn": 68,
+                    "endOffset": 14602
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 14607,
+                    "endColumn": 74,
+                    "endOffset": 14677
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 193,
+                    "startColumn": 4,
+                    "startOffset": 14682,
+                    "endColumn": 73,
+                    "endOffset": 14751
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 194,
+                    "startColumn": 4,
+                    "startOffset": 14756,
+                    "endColumn": 73,
+                    "endOffset": 14825
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 14830,
+                    "endColumn": 88,
+                    "endOffset": 14914
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 14919,
+                    "endColumn": 55,
+                    "endOffset": 14970
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 14975,
+                    "endColumn": 55,
+                    "endOffset": 15026
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 15031,
+                    "endColumn": 48,
+                    "endOffset": 15075
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 15080,
+                    "endColumn": 43,
+                    "endOffset": 15119
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 15124,
+                    "endColumn": 39,
+                    "endOffset": 15159
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 201,
+                    "startColumn": 4,
+                    "startOffset": 15164,
+                    "endColumn": 47,
+                    "endOffset": 15207
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 15212,
+                    "endColumn": 42,
+                    "endOffset": 15250
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 203,
+                    "startColumn": 4,
+                    "startOffset": 15255,
+                    "endColumn": 66,
+                    "endOffset": 15317
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 204,
+                    "startColumn": 4,
+                    "startOffset": 15322,
+                    "endColumn": 59,
+                    "endOffset": 15377
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 205,
+                    "startColumn": 4,
+                    "startOffset": 15382,
+                    "endColumn": 57,
+                    "endOffset": 15435
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 15440,
+                    "endColumn": 73,
+                    "endOffset": 15509
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 207,
+                    "startColumn": 4,
+                    "startOffset": 15514,
+                    "endColumn": 37,
+                    "endOffset": 15547
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 15552,
+                    "endColumn": 88,
+                    "endOffset": 15636
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 88,
+                        "endOffset": 817
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 209,
+                    "startColumn": 4,
+                    "startOffset": 15641,
+                    "endColumn": 42,
+                    "endOffset": 15679
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 15684,
+                    "endLine": 216,
+                    "endColumn": 12,
+                    "endOffset": 15972
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 217,
+                    "startColumn": 4,
+                    "startOffset": 15977,
+                    "endLine": 219,
+                    "endColumn": 12,
+                    "endOffset": 16132
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 220,
+                    "startColumn": 4,
+                    "startOffset": 16137,
+                    "endLine": 225,
+                    "endColumn": 10,
+                    "endOffset": 16437
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/values/themes.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 16442,
+                    "endLine": 228,
+                    "endColumn": 12,
+                    "endOffset": 16637
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 16642,
+                    "endLine": 233,
+                    "endColumn": 12,
+                    "endOffset": 16920
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 234,
+                    "startColumn": 4,
+                    "startOffset": 16925,
+                    "endLine": 237,
+                    "endColumn": 12,
+                    "endOffset": 17128
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 17133,
+                    "endLine": 240,
+                    "endColumn": 12,
+                    "endOffset": 17259
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 17264,
+                    "endLine": 244,
+                    "endColumn": 12,
+                    "endOffset": 17521
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 17526,
+                    "endLine": 248,
+                    "endColumn": 12,
+                    "endOffset": 17783
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 17788,
+                    "endLine": 252,
+                    "endColumn": 12,
+                    "endOffset": 18061
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 18066,
+                    "endLine": 256,
+                    "endColumn": 12,
+                    "endOffset": 18275
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 18280,
+                    "endLine": 259,
+                    "endColumn": 12,
+                    "endOffset": 18412
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 18417,
+                    "endColumn": 140,
+                    "endOffset": 18553
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 261,
+                    "startColumn": 4,
+                    "startOffset": 18558,
+                    "endColumn": 140,
+                    "endOffset": 18694
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 262,
+                    "startColumn": 4,
+                    "startOffset": 18699,
+                    "endColumn": 139,
+                    "endOffset": 18834
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 18839,
+                    "endColumn": 133,
+                    "endOffset": 18968
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 18973,
+                    "endColumn": 141,
+                    "endOffset": 19110
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 265,
+                    "startColumn": 4,
+                    "startOffset": 19115,
+                    "endColumn": 141,
+                    "endOffset": 19252
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 19257,
+                    "endColumn": 127,
+                    "endOffset": 19380
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 267,
+                    "startColumn": 4,
+                    "startOffset": 19385,
+                    "endColumn": 121,
+                    "endOffset": 19502
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 19507,
+                    "endColumn": 127,
+                    "endOffset": 19630
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 19635,
+                    "endColumn": 135,
+                    "endOffset": 19766
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 270,
+                    "startColumn": 4,
+                    "startOffset": 19771,
+                    "endColumn": 151,
+                    "endOffset": 19918
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 19923,
+                    "endColumn": 129,
+                    "endOffset": 20048
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 20053,
+                    "endColumn": 145,
+                    "endOffset": 20194
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 273,
+                    "startColumn": 4,
+                    "startOffset": 20199,
+                    "endColumn": 137,
+                    "endOffset": 20332
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 274,
+                    "startColumn": 4,
+                    "startOffset": 20337,
+                    "endColumn": 153,
+                    "endOffset": 20486
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 275,
+                    "startColumn": 4,
+                    "startOffset": 20491,
+                    "endColumn": 131,
+                    "endOffset": 20618
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 20623,
+                    "endColumn": 147,
+                    "endOffset": 20766
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 20771,
+                    "endLine": 281,
+                    "endColumn": 12,
+                    "endOffset": 21061
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 282,
+                    "startColumn": 4,
+                    "startOffset": 21066,
+                    "endLine": 284,
+                    "endColumn": 12,
+                    "endOffset": 21273
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 285,
+                    "startColumn": 4,
+                    "startOffset": 21278,
+                    "endLine": 287,
+                    "endColumn": 12,
+                    "endOffset": 21501
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 288,
+                    "startColumn": 4,
+                    "startOffset": 21506,
+                    "endLine": 290,
+                    "endColumn": 12,
+                    "endOffset": 21708
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 21713,
+                    "endLine": 293,
+                    "endColumn": 12,
+                    "endOffset": 21931
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 294,
+                    "startColumn": 4,
+                    "startOffset": 21936,
+                    "endLine": 296,
+                    "endColumn": 12,
+                    "endOffset": 22137
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 22142,
+                    "endLine": 299,
+                    "endColumn": 12,
+                    "endOffset": 22366
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 300,
+                    "startColumn": 4,
+                    "startOffset": 22371,
+                    "endColumn": 112,
+                    "endOffset": 22479
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 301,
+                    "startColumn": 4,
+                    "startOffset": 22484,
+                    "endColumn": 128,
+                    "endOffset": 22608
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 22613,
+                    "endLine": 304,
+                    "endColumn": 12,
+                    "endOffset": 22816
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 305,
+                    "startColumn": 4,
+                    "startOffset": 22821,
+                    "endColumn": 123,
+                    "endOffset": 22940
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 306,
+                    "startColumn": 4,
+                    "startOffset": 22945,
+                    "endColumn": 129,
+                    "endOffset": 23070
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 23075,
+                    "endColumn": 129,
+                    "endOffset": 23200
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 23205,
+                    "endLine": 310,
+                    "endColumn": 12,
+                    "endOffset": 23414
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 23419,
+                    "endColumn": 133,
+                    "endOffset": 23548
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 23553,
+                    "endLine": 345,
+                    "endColumn": 12,
+                    "endOffset": 26037
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 346,
+                    "startColumn": 4,
+                    "startOffset": 26042,
+                    "endLine": 349,
+                    "endColumn": 12,
+                    "endOffset": 26324
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 350,
+                    "startColumn": 4,
+                    "startOffset": 26329,
+                    "endLine": 353,
+                    "endColumn": 12,
+                    "endOffset": 26615
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 354,
+                    "startColumn": 4,
+                    "startOffset": 26620,
+                    "endColumn": 89,
+                    "endOffset": 26705
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 355,
+                    "startColumn": 4,
+                    "startOffset": 26710,
+                    "endColumn": 103,
+                    "endOffset": 26809
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 26814,
+                    "endColumn": 97,
+                    "endOffset": 26907
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 357,
+                    "startColumn": 4,
+                    "startOffset": 26912,
+                    "endLine": 390,
+                    "endColumn": 12,
+                    "endOffset": 29535
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 391,
+                    "startColumn": 4,
+                    "startOffset": 29540,
+                    "endLine": 424,
+                    "endColumn": 12,
+                    "endOffset": 32087
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 425,
+                    "startColumn": 4,
+                    "startOffset": 32092,
+                    "endColumn": 109,
+                    "endOffset": 32197
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 426,
+                    "startColumn": 4,
+                    "startOffset": 32202,
+                    "endColumn": 53,
+                    "endOffset": 32251
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 427,
+                    "startColumn": 4,
+                    "startOffset": 32256,
+                    "endLine": 473,
+                    "endColumn": 12,
+                    "endOffset": 35625
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 474,
+                    "startColumn": 4,
+                    "startOffset": 35630,
+                    "endLine": 507,
+                    "endColumn": 12,
+                    "endOffset": 38040
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 508,
+                    "startColumn": 4,
+                    "startOffset": 38045,
+                    "endColumn": 110,
+                    "endOffset": 38151
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 509,
+                    "startColumn": 4,
+                    "startOffset": 38156,
+                    "endColumn": 86,
+                    "endOffset": 38238
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 510,
+                    "startColumn": 4,
+                    "startOffset": 38243,
+                    "endLine": 558,
+                    "endColumn": 12,
+                    "endOffset": 41741
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 559,
+                    "startColumn": 4,
+                    "startOffset": 41746,
+                    "endLine": 584,
+                    "endColumn": 12,
+                    "endOffset": 43659
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 585,
+                    "startColumn": 4,
+                    "startOffset": 43664,
+                    "endColumn": 98,
+                    "endOffset": 43758
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 586,
+                    "startColumn": 4,
+                    "startOffset": 43763,
+                    "endColumn": 65,
+                    "endOffset": 43824
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 587,
+                    "startColumn": 4,
+                    "startOffset": 43829,
+                    "endColumn": 87,
+                    "endOffset": 43912
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 588,
+                    "startColumn": 4,
+                    "startOffset": 43917,
+                    "endColumn": 99,
+                    "endOffset": 44012
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 589,
+                    "startColumn": 4,
+                    "startOffset": 44017,
+                    "endColumn": 101,
+                    "endOffset": 44114
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 590,
+                    "startColumn": 4,
+                    "startOffset": 44119,
+                    "endColumn": 103,
+                    "endOffset": 44218
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 591,
+                    "startColumn": 4,
+                    "startOffset": 44223,
+                    "endColumn": 103,
+                    "endOffset": 44322
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 592,
+                    "startColumn": 4,
+                    "startOffset": 44327,
+                    "endColumn": 93,
+                    "endOffset": 44416
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 593,
+                    "startColumn": 4,
+                    "startOffset": 44421,
+                    "endColumn": 113,
+                    "endOffset": 44530
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 594,
+                    "startColumn": 4,
+                    "startOffset": 44535,
+                    "endColumn": 111,
+                    "endOffset": 44642
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 595,
+                    "startColumn": 4,
+                    "startOffset": 44647,
+                    "endColumn": 89,
+                    "endOffset": 44732
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 596,
+                    "startColumn": 4,
+                    "startOffset": 44737,
+                    "endColumn": 107,
+                    "endOffset": 44840
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 597,
+                    "startColumn": 4,
+                    "startOffset": 44845,
+                    "endColumn": 109,
+                    "endOffset": 44950
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 598,
+                    "startColumn": 4,
+                    "startOffset": 44955,
+                    "endLine": 612,
+                    "endColumn": 12,
+                    "endOffset": 46103
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 613,
+                    "startColumn": 4,
+                    "startOffset": 46108,
+                    "endLine": 617,
+                    "endColumn": 12,
+                    "endOffset": 46457
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 618,
+                    "startColumn": 4,
+                    "startOffset": 46462,
+                    "endLine": 622,
+                    "endColumn": 12,
+                    "endOffset": 46694
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 623,
+                    "startColumn": 4,
+                    "startOffset": 46699,
+                    "endLine": 631,
+                    "endColumn": 12,
+                    "endOffset": 47168
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 632,
+                    "startColumn": 4,
+                    "startOffset": 47173,
+                    "endLine": 638,
+                    "endColumn": 12,
+                    "endOffset": 47555
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 639,
+                    "startColumn": 4,
+                    "startOffset": 47560,
+                    "endLine": 648,
+                    "endColumn": 12,
+                    "endOffset": 48141
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 649,
+                    "startColumn": 4,
+                    "startOffset": 48146,
+                    "endColumn": 108,
+                    "endOffset": 48250
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 650,
+                    "startColumn": 4,
+                    "startOffset": 48255,
+                    "endLine": 652,
+                    "endColumn": 12,
+                    "endOffset": 48462
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 653,
+                    "startColumn": 4,
+                    "startOffset": 48467,
+                    "endLine": 659,
+                    "endColumn": 12,
+                    "endOffset": 48938
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 660,
+                    "startColumn": 4,
+                    "startOffset": 48943,
+                    "endLine": 666,
+                    "endColumn": 12,
+                    "endOffset": 49312
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 667,
+                    "startColumn": 4,
+                    "startOffset": 49317,
+                    "endLine": 671,
+                    "endColumn": 12,
+                    "endOffset": 49691
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 672,
+                    "startColumn": 4,
+                    "startOffset": 49696,
+                    "endLine": 677,
+                    "endColumn": 12,
+                    "endOffset": 50044
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 678,
+                    "startColumn": 4,
+                    "startOffset": 50049,
+                    "endLine": 684,
+                    "endColumn": 12,
+                    "endOffset": 50504
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 685,
+                    "startColumn": 4,
+                    "startOffset": 50509,
+                    "endLine": 687,
+                    "endColumn": 12,
+                    "endOffset": 50696
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 688,
+                    "startColumn": 4,
+                    "startOffset": 50701,
+                    "endLine": 691,
+                    "endColumn": 12,
+                    "endOffset": 50955
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 692,
+                    "startColumn": 4,
+                    "startOffset": 50960,
+                    "endColumn": 105,
+                    "endOffset": 51061
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 693,
+                    "startColumn": 4,
+                    "startOffset": 51066,
+                    "endLine": 698,
+                    "endColumn": 12,
+                    "endOffset": 51505
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 699,
+                    "startColumn": 4,
+                    "startOffset": 51510,
+                    "endColumn": 111,
+                    "endOffset": 51617
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 700,
+                    "startColumn": 4,
+                    "startOffset": 51622,
+                    "endLine": 710,
+                    "endColumn": 12,
+                    "endOffset": 52316
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 711,
+                    "startColumn": 4,
+                    "startOffset": 52321,
+                    "endColumn": 109,
+                    "endOffset": 52426
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 712,
+                    "startColumn": 4,
+                    "startOffset": 52431,
+                    "endColumn": 99,
+                    "endOffset": 52526
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 713,
+                    "startColumn": 4,
+                    "startOffset": 52531,
+                    "endColumn": 111,
+                    "endOffset": 52638
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 714,
+                    "startColumn": 4,
+                    "startOffset": 52643,
+                    "endColumn": 127,
+                    "endOffset": 52766
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 715,
+                    "startColumn": 4,
+                    "startOffset": 52771,
+                    "endColumn": 113,
+                    "endOffset": 52880
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 716,
+                    "startColumn": 4,
+                    "startOffset": 52885,
+                    "endColumn": 129,
+                    "endOffset": 53010
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 717,
+                    "startColumn": 4,
+                    "startOffset": 53015,
+                    "endColumn": 115,
+                    "endOffset": 53126
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 718,
+                    "startColumn": 4,
+                    "startOffset": 53131,
+                    "endColumn": 131,
+                    "endOffset": 53258
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 719,
+                    "startColumn": 4,
+                    "startOffset": 53263,
+                    "endColumn": 115,
+                    "endOffset": 53374
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 720,
+                    "startColumn": 4,
+                    "startOffset": 53379,
+                    "endColumn": 131,
+                    "endOffset": 53506
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 721,
+                    "startColumn": 4,
+                    "startOffset": 53511,
+                    "endColumn": 105,
+                    "endOffset": 53612
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 722,
+                    "startColumn": 4,
+                    "startOffset": 53617,
+                    "endColumn": 125,
+                    "endOffset": 53738
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 723,
+                    "startColumn": 4,
+                    "startOffset": 53743,
+                    "endColumn": 123,
+                    "endOffset": 53862
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 724,
+                    "startColumn": 4,
+                    "startOffset": 53867,
+                    "endColumn": 117,
+                    "endOffset": 53980
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 725,
+                    "startColumn": 4,
+                    "startOffset": 53985,
+                    "endColumn": 119,
+                    "endOffset": 54100
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 726,
+                    "startColumn": 4,
+                    "startOffset": 54105,
+                    "endColumn": 121,
+                    "endOffset": 54222
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 727,
+                    "startColumn": 4,
+                    "startOffset": 54227,
+                    "endLine": 735,
+                    "endColumn": 12,
+                    "endOffset": 54975
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 736,
+                    "startColumn": 4,
+                    "startOffset": 54980,
+                    "endLine": 740,
+                    "endColumn": 12,
+                    "endOffset": 55344
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 741,
+                    "startColumn": 4,
+                    "startOffset": 55349,
+                    "endLine": 746,
+                    "endColumn": 12,
+                    "endOffset": 55900
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 747,
+                    "startColumn": 4,
+                    "startOffset": 55905,
+                    "endColumn": 112,
+                    "endOffset": 56013
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 748,
+                    "startColumn": 4,
+                    "startOffset": 56018,
+                    "endColumn": 126,
+                    "endOffset": 56140
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 749,
+                    "startColumn": 4,
+                    "startOffset": 56145,
+                    "endColumn": 114,
+                    "endOffset": 56255
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 750,
+                    "startColumn": 4,
+                    "startOffset": 56260,
+                    "endLine": 752,
+                    "endColumn": 12,
+                    "endOffset": 56491
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 753,
+                    "startColumn": 4,
+                    "startOffset": 56496,
+                    "endColumn": 114,
+                    "endOffset": 56606
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 754,
+                    "startColumn": 4,
+                    "startOffset": 56611,
+                    "endColumn": 128,
+                    "endOffset": 56735
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 755,
+                    "startColumn": 4,
+                    "startOffset": 56740,
+                    "endColumn": 104,
+                    "endOffset": 56840
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 756,
+                    "startColumn": 4,
+                    "startOffset": 56845,
+                    "endColumn": 120,
+                    "endOffset": 56961
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 757,
+                    "startColumn": 4,
+                    "startOffset": 56966,
+                    "endLine": 759,
+                    "endColumn": 12,
+                    "endOffset": 57186
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 760,
+                    "startColumn": 4,
+                    "startOffset": 57191,
+                    "endLine": 763,
+                    "endColumn": 12,
+                    "endOffset": 57551
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 764,
+                    "startColumn": 4,
+                    "startOffset": 57556,
+                    "endLine": 766,
+                    "endColumn": 12,
+                    "endOffset": 57768
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 767,
+                    "startColumn": 4,
+                    "startOffset": 57773,
+                    "endLine": 771,
+                    "endColumn": 12,
+                    "endOffset": 58155
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 772,
+                    "startColumn": 4,
+                    "startOffset": 58160,
+                    "endColumn": 120,
+                    "endOffset": 58276
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 773,
+                    "startColumn": 4,
+                    "startOffset": 58281,
+                    "endLine": 779,
+                    "endColumn": 12,
+                    "endOffset": 58744
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 780,
+                    "startColumn": 4,
+                    "startOffset": 58749,
+                    "endLine": 782,
+                    "endColumn": 12,
+                    "endOffset": 58943
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 783,
+                    "startColumn": 4,
+                    "startOffset": 58948,
+                    "endColumn": 117,
+                    "endOffset": 59061
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 784,
+                    "startColumn": 4,
+                    "startOffset": 59066,
+                    "endLine": 788,
+                    "endColumn": 12,
+                    "endOffset": 59440
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 789,
+                    "startColumn": 4,
+                    "startOffset": 59445,
+                    "endColumn": 121,
+                    "endOffset": 59562
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 790,
+                    "startColumn": 4,
+                    "startOffset": 59567,
+                    "endColumn": 111,
+                    "endOffset": 59674
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 791,
+                    "startColumn": 4,
+                    "startOffset": 59679,
+                    "endColumn": 115,
+                    "endOffset": 59790
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 792,
+                    "startColumn": 4,
+                    "startOffset": 59795,
+                    "endColumn": 99,
+                    "endOffset": 59890
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 793,
+                    "startColumn": 4,
+                    "startOffset": 59895,
+                    "endColumn": 114,
+                    "endOffset": 60005
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 794,
+                    "startColumn": 4,
+                    "startOffset": 60010,
+                    "endColumn": 99,
+                    "endOffset": 60105
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 795,
+                    "startColumn": 4,
+                    "startOffset": 60110,
+                    "endColumn": 103,
+                    "endOffset": 60209
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 796,
+                    "startColumn": 4,
+                    "startOffset": 60214,
+                    "endColumn": 95,
+                    "endOffset": 60305
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 797,
+                    "startColumn": 4,
+                    "startOffset": 60310,
+                    "endColumn": 87,
+                    "endOffset": 60393
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 798,
+                    "startColumn": 4,
+                    "startOffset": 60398,
+                    "endColumn": 91,
+                    "endOffset": 60485
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 799,
+                    "startColumn": 4,
+                    "startOffset": 60490,
+                    "endColumn": 113,
+                    "endOffset": 60599
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 800,
+                    "startColumn": 4,
+                    "startOffset": 60604,
+                    "endColumn": 102,
+                    "endOffset": 60702
+                },
+                "from": {
+                    "file": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		tools:context="dev.dorkymonkey.MainActivity" >
+
+  <LinearLayout
+      android:orientation="vertical" 
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_gravity="center" >
+
+    <TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/text1"
+	android:text="@string/dorky"
+	android:gravity="center"
+	android:layout_marginTop="10dp"
+	android:textStyle="bold"
+	android:textColor="#ff00ff"
+	android:textColorHighlight="#000000"
+	android:textIsSelectable="true"
+	android:fontFamily="Arial"
+	android:typeface="serif"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+	android:orientation="horizontal" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center" >
+
+      <ImageButton
+	  android:id="@+id/account_btn"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1"
+	  android:contentDescription="@string/arrival"
+	  android:src="@drawable/account" />
+      <ImageButton
+	  android:id="@+id/camera_btn"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1"
+	  android:contentDescription="@string/departure"
+	  android:src="@drawable/androidcamera" />
+    </LinearLayout>
+
+    <ImageView
+	android:id="@+id/img_android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:src="@drawable/android"/>
+    <ImageView
+        android:id="@+id/qrcode_bitmap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/result"/>
+    <TextView
+	android:id="@+id/scan_content"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textIsSelectable="true"
+	android:layout_centerHorizontal="true" />
+  </LinearLayout>
+</RelativeLayout>
