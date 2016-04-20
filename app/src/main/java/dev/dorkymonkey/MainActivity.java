@@ -30,6 +30,7 @@ public class MainActivity extends Activity implements OnClickListener {
         cameraBtn = (ImageButton)findViewById(R.id.camera_btn);
         cameraBtn.setOnClickListener(this);
         contentTxt = (TextView)findViewById(R.id.scan_content);
+        mImageView = (ImageView)findViewById(R.id.qrcode_bitmap);
 	}
 
     public void onClick(View v) {
@@ -41,15 +42,11 @@ public class MainActivity extends Activity implements OnClickListener {
             intent.setClass(MainActivity.this, MipcaActivityCapture.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivityForResult(intent, SCANNIN_GREQUEST_CODE);
-            
-            //IntentIntegrator scanIntegrator = new IntentIntegrator(this);
-            //scanIntegrator.initiateScan();
         }
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent intent) {
-        //IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
         super.onActivityResult(requestCode, resultCode, intent);
         switch (requestCode) {
         case SCANNIN_GREQUEST_CODE:
@@ -59,15 +56,5 @@ public class MainActivity extends Activity implements OnClickListener {
 				mImageView.setImageBitmap((Bitmap) intent.getParcelableExtra("bitmap"));
             }
         }
-        /* if (scanningResult != null) {
-            // we have a result
-            String scanContent = scanningResult.getContents();
-            String scanFormat = scanningResult.getFormatName();
-            fmtTxt.setText("FORMAT: " + scanFormat);
-            contentTxt.setText("CONTENT: " + scanContent);
-        } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "No scan data received!", Toast.LENGTH_SHORT);
-            toast.show();
-            } */
     }
 }

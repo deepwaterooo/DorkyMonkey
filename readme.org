@@ -6,14 +6,13 @@
 * most recent comments
 - I could simply include Zxing.jar for simplisity, but since I simplified package name firstly, I just manually added all the Necessary classes that are needed for compile. 
 - Will try to understand this jar. 
-- Debugging for app, wil update later. 
-- 
+- Implementations for most basic regular use for android app. Only one major functionality TODO from android side, send scaner locaiton information to sever, will work on this one later in the evening. 
+- It's a course project that I try to implement all the necessary functionalities. If I could implement the app, I would want to spend time on some project that I am currently more interested. 
+- After the one leftover functionality being done, will work on android music cube app for java programming course as a individual course project. 
+ 
 * References
 - http://blog.csdn.net/xiaanming/article/details/10163203
 - https://github.com/dyzhangweix/QR_CodeScan
-- 
-- 
-- 
 - 
 
 * project design about QR Codes
