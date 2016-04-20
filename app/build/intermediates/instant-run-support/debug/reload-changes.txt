@@ -1,5 +1,3 @@
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/MipcaActivityCapture$2$override.class
+CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/R$id$override.class
 CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/MainActivity$override.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/MipcaActivityCapture$1$override.class
 CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/MipcaActivityCapture$override.class

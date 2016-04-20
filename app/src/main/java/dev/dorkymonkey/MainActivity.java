@@ -1,5 +1,6 @@
 package dev.dorkymonkey;
 
+import dev.dorkymonkey.Attendance;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -54,6 +55,38 @@ public class MainActivity extends Activity implements OnClickListener {
 				Bundle bundle = intent.getExtras();
 				contentTxt.setText(bundle.getString("result"));
 				mImageView.setImageBitmap((Bitmap) intent.getParcelableExtra("bitmap"));
+
+                // for http get
+                Attendance att = new Attendance();
+                att.setCheckType = "in";
+                att.setDate = "2016-06-17";
+                att.setCourseCode = "SWE 500";
+                att.setCourse = "Software Engineering";
+                URL url = null;
+                ObjectOutputStream oos = null;
+                try {
+                    url = new URL("http://52.53.254.77:7777");  // still some work here
+                    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                    connection.setDoInput(true);
+                    connection.setDoOutput(true);
+                    connection.setConnectTimeout(10000);
+                    connection.setReadTimeout(10000);
+                    connection.setRequestMethod("POST");
+                    oos = new ObjectOutputStream(connection.getOutputStream());
+                    oos.writeObject(att);
+                    InputStreamReader read = new InputStreamReader(connection.getInputStream()); // 向J2EE服务器发送消息 
+                    BufferedReader br = new BufferedReader(read);
+                    String line = "";
+                    while ((line = br.readLine()) != null) {
+                        Log.d("TAG", "line is " + line);
+                    }
+                    br.close();
+                    //read.close();  // which one is needed here, or all of them?
+                    connection.disconnect();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                } finally {
+                }
             }
         }
     }

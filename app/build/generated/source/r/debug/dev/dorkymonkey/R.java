@@ -897,13 +897,13 @@ containing a value of this type.
         public static final int preview_view=0x7f0d0049;
         public static final int progress_circular=0x7f0d0009;
         public static final int progress_horizontal=0x7f0d000a;
-        public static final int qrcode_bitmap=0x7f0d0050;
+        public static final int qrcode_bitmap=0x7f0d0051;
         public static final int quit=0x7f0d000b;
         public static final int radio=0x7f0d0037;
         public static final int restart_preview=0x7f0d000c;
-        public static final int result=0x7f0d0051;
+        public static final int result=0x7f0d0052;
         public static final int return_scan_result=0x7f0d000d;
-        public static final int scan_content=0x7f0d0052;
+        public static final int scan_content=0x7f0d0050;
         public static final int search_badge=0x7f0d003a;
         public static final int search_bar=0x7f0d0039;
         public static final int search_button=0x7f0d003b;

@@ -314,13 +314,13 @@ int id normal 0x7f0d000f
 int id preview_view 0x7f0d0049
 int id progress_circular 0x7f0d0009
 int id progress_horizontal 0x7f0d000a
-int id qrcode_bitmap 0x7f0d0050
+int id qrcode_bitmap 0x7f0d0051
 int id quit 0x7f0d000b
 int id radio 0x7f0d0037
 int id restart_preview 0x7f0d000c
-int id result 0x7f0d0051
+int id result 0x7f0d0052
 int id return_scan_result 0x7f0d000d
-int id scan_content 0x7f0d0052
+int id scan_content 0x7f0d0050
 int id search_badge 0x7f0d003a
 int id search_bar 0x7f0d0039
 int id search_button 0x7f0d003b

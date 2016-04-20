@@ -7,13 +7,17 @@
 - I could simply include Zxing.jar for simplisity, but since I simplified package name firstly, I just manually added all the Necessary classes that are needed for compile. 
 - Will try to understand this jar. 
 - Implementations for most basic regular use for android app. Only one major functionality TODO from android side, send scaner locaiton information to sever, will work on this one later in the evening. 
+- Basic theories are very clear now, still a fair amount of work to do, also needs the sever in order to test. Will continue to work on this one on 4/21 evening when the group meets. 
 - It's a course project that I try to implement all the necessary functionalities. If I could implement the app, I would want to spend time on some project that I am currently more interested. 
+- Spend a few hours today to review for tomorrow evening's data structure test. Then work on either android app (cube app, or debug tetris). 
+- Systematic understanding of android app basic packages and app framework is needed. test and test automation for app will be a good trial when opengl tetris is ready for test. 
 - After the one leftover functionality being done, will work on android music cube app for java programming course as a individual course project. 
  
 * References
 - http://blog.csdn.net/xiaanming/article/details/10163203
 - https://github.com/dyzhangweix/QR_CodeScan
-- 
+- get: http://www.cnblogs.com/hanyonglu/archive/2012/02/19/2357842.html
+- http://www.bkjia.com/Androidjc/882604.html
 
 * project design about QR Codes
 - patent: http://www.google.com/patents/CN103346892A?cl=zh
