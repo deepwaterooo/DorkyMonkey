@@ -33,13 +33,14 @@ public class MainActivity extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-        new Thread(runnable).start();
+        //new Thread(runnable).start();
         
-        /* // StrickMode trials work now, use regular thread method instead
-        if (android.os.Build.VERSION.SDK_INT > 9) {  
+         // StrickMode trials work now, use regular thread method instead
+        /*if (android.os.Build.VERSION.SDK_INT > 9) {  
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();  
             StrictMode.setThreadPolicy(policy);  
-            } */         
+            }   */
+        
         accountBtn = (ImageButton)findViewById(R.id.account_btn);
         accountBtn.setOnClickListener(this);
         cameraBtn = (ImageButton)findViewById(R.id.camera_btn);
@@ -98,7 +99,7 @@ public class MainActivity extends Activity implements OnClickListener {
                     InputStreamReader read = new InputStreamReader(connection.getInputStream()); 
                     BufferedReader br = new BufferedReader(read);
                     String line = "";
-                    while ((line = br.readLine()) != null) {
+                    while ((line = br.readLine()) != null) { // could parse the server feedback here, but don't have to for now
                         Log.d("TAG", "line is " + line);
                     }
                     br.close();

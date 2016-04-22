@@ -4,7 +4,7 @@
 #+author: deepwaterooo
 
 * most recent comments
-- Signin needs to call server, now StrickMode it works, need to try thread method. 
+- Signin needs to call server, now StrickMode it works, thread method works too now. left over similiar sever calls are all considered labor-work, will work on them when I am tired. will work on different functionalities, for example. the confirm views before/after QRCode scan. work on screen sizes first though. 
 - Similiar server calls and a couple of interface needs to set up after checkin/checkout. 
 - Studio is restrict on images, all the four images that teammates want do NOT work with studio. will try this later only when all other functionalities are done;
 - have basic Fragment and layout for different screen sizes, suggested by teammates, will Potentially try to fit different screen sizes. 
@@ -23,7 +23,7 @@
 - http://stackoverflow.com/questions/4531396/get-value-of-a-edit-text-field
 - bundle parcel: http://chjmars.iteye.com/blog/1266256 
 - internet access: http://blog.csdn.net/withiter/article/details/19908679
-- 
+- thread pack: http://stackoverflow.com/questions/3391272/how-to-use-separate-thread-to-perform-http-requests
 
 * project design about QR Codes
 - patent: http://www.google.com/patents/CN103346892A?cl=zh

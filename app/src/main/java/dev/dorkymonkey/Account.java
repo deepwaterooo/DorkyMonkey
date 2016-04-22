@@ -27,16 +27,14 @@ public class Account extends Activity {
     private Button  signinBtn;
     private EditText nameEditText;
     private EditText idEditText;
-    
+    public StringBuilder urlStr; 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.accountview);
-        
-        // Set full screen view
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
 
+        urlStr = new StringBuilder();
         nameEditText = (EditText)findViewById(R.id.studentName);
         idEditText = (EditText)findViewById(R.id.studentId);
         clearBtn = (Button)findViewById(R.id.clear);
@@ -64,67 +62,34 @@ public class Account extends Activity {
                     for (int i = 0; i < words.length - 1; i++) 
                         res.append(words[i]).append("_");
                     res.append(words[words.length - 1]);
-                    URL url = null;
-                    HttpURLConnection connection = null; //(HttpURLConnection) url.openConnection();
-                    //ObjectOutputStream oos = null;
-                    StringBuilder urlStr = new StringBuilder();
                     urlStr.append("http://52.53.254.77:7777/signinstudent/").append(res);
-                        System.out.println("urlStr.toString(): " + urlStr.toString()); 
-                    
-                    try {
+                    //System.out.println("urlStr.toString(): " + urlStr.toString()); 
 
-                        url = new URL(urlStr.toString()); 
-                        connection = (HttpURLConnection) url.openConnection();
-                        /*connection.setDoInput(true);
-                        connection.setDoOutput(true);
-                        connection.setConnectTimeout(10000);
-                        connection.setReadTimeout(10000); 
-                        connection.setRequestMethod("POST"); */
-                        //oos = new ObjectOutputStream(connection.getOutputStream());
-                        //oos.writeObject(att);
-                        InputStreamReader read = new InputStreamReader(connection.getInputStream());
-                        int data = read.read();
-                        while (data != -1) {
-                            char curr = (char) data;
-                            data = read.read();
-                            System.out.print(curr);
-                        }
-                        
-                        /*BufferedReader br = new BufferedReader(read);
-                        String line = "";
-                        while ((line = br.readLine()) != null) {
-                            Log.d("TAG", "line is " + line);
-                        }
-                        br.close();
-                        //read.close();  // which one is needed here, or all of them?
-                        connection.disconnect();*/
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    } finally {
-                        if (connection != null) connection.disconnect();
-                    }
+                    Thread thread = new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                HttpURLConnection connection = null;
+                                try {
+                                    URL url = new URL(urlStr.toString()); 
+                                    connection = (HttpURLConnection) url.openConnection();
+                                    InputStreamReader read = new InputStreamReader(connection.getInputStream());
+                                    BufferedReader br = new BufferedReader(read);
+                                    String line = "";
+                                    while ((line = br.readLine()) != null) {
+                                        Log.d("TAG", "line is " + line);
+                                    }
+                                    br.close();
+                                    //read.close();  // which one is needed here, or all of them?
+                                    connection.disconnect();
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                } finally {
+                                    if (connection != null) connection.disconnect();
+                                }
+                            }
+                        });
+                    thread.start();
                 }
             });
     }
-    
-    /*      
-    @Override
-    public void onClickListener(View view) {
-        Log.v("EditText", nameEditText.getText().toString().trim());
-        Log.v("EditText ", idEditText.getText().toString().trim());
-        switch (view.getId()) {
-        case clearBtn:
-            nameEditText.setText("");
-            idEditText.setText("");
-            break;
-        case signinBtn:
-            Intent simpleIntent = new Intent();
-            simpleIntent.setClass(Account.this, MainActivity.class);
-            Bundle simpleBundle = new Bundle();
-            simpleBundle.putString("name", nameEditText.getText().toString().trim());
-            simpleBundle.putString("id", idEditText.getText().toString().trim());
-            simpleIntent.putExtras(simpleBundle);
-            break;
-        }
-        } */
 }
