@@ -24,19 +24,19 @@ public class Attendance implements Serializable {
 		this.date = date;
 	}
 
-	public double getCourseCode() {
+	public String getCourseCode() {
 		return course_code;
 	}
 
-	public void setCourseCode(double courseCode) {
+	public void setCourseCode(String courseCode) {
 		this.course_code = courseCode;
 	}
 
-	public int getCourse() {
+	public String getCourse() {
 		return course;
 	}
 
-	public void setCourse(int course) {
+	public void setCourse(String course) {
 		this.course = course;
 	}
 }
