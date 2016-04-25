@@ -855,18 +855,18 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f0d0001;
         public static final int action_menu_presenter=0x7f0d0002;
         public static final int action_mode_close_button=0x7f0d002c;
-        public static final int action_settings=0x7f0d005a;
+        public static final int action_settings=0x7f0d0059;
         public static final int activity_chooser_view_content=0x7f0d002d;
         public static final int always=0x7f0d001b;
         public static final int auto_focus=0x7f0d0003;
         public static final int beginning=0x7f0d0017;
-        public static final int button_back=0x7f0d0054;
+        public static final int button_back=0x7f0d0053;
         public static final int camera_btn=0x7f0d0051;
-        public static final int cancelBtn=0x7f0d0057;
+        public static final int cancelBtn=0x7f0d0056;
         public static final int checkbox=0x7f0d0035;
         public static final int clear=0x7f0d0049;
         public static final int collapseActionView=0x7f0d001c;
-        public static final int confirmBtn=0x7f0d0058;
+        public static final int confirmBtn=0x7f0d0057;
         public static final int decode=0x7f0d0004;
         public static final int decode_failed=0x7f0d0005;
         public static final int decode_succeeded=0x7f0d0006;
@@ -879,7 +879,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f0d002e;
         public static final int expanded_menu=0x7f0d0034;
         public static final int fragment=0x7f0d0052;
-        public static final int help_contents=0x7f0d0059;
+        public static final int help_contents=0x7f0d0058;
         public static final int home=0x7f0d0007;
         public static final int homeAsUp=0x7f0d0012;
         public static final int icon=0x7f0d0032;
@@ -897,7 +897,7 @@ containing a value of this type.
         public static final int never=0x7f0d001e;
         public static final int none=0x7f0d001a;
         public static final int normal=0x7f0d000f;
-        public static final int parsedResult=0x7f0d0056;
+        public static final int parsedResult=0x7f0d0055;
         public static final int preview_view=0x7f0d004b;
         public static final int progress_circular=0x7f0d0009;
         public static final int progress_horizontal=0x7f0d000a;
@@ -905,7 +905,6 @@ containing a value of this type.
         public static final int radio=0x7f0d0037;
         public static final int restart_preview=0x7f0d000c;
         public static final int return_scan_result=0x7f0d000d;
-        public static final int scan_content=0x7f0d0053;
         public static final int search_badge=0x7f0d003a;
         public static final int search_bar=0x7f0d0039;
         public static final int search_button=0x7f0d003b;
@@ -927,7 +926,7 @@ containing a value of this type.
         public static final int submit_area=0x7f0d0041;
         public static final int tabMode=0x7f0d0010;
         public static final int text1=0x7f0d004f;
-        public static final int textview_title=0x7f0d0055;
+        public static final int textview_title=0x7f0d0054;
         public static final int title=0x7f0d0033;
         public static final int top_action_bar=0x7f0d0028;
         public static final int up=0x7f0d0029;

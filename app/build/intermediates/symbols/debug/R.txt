@@ -272,18 +272,18 @@ int id action_context_bar 0x7f0d0025
 int id action_menu_divider 0x7f0d0001
 int id action_menu_presenter 0x7f0d0002
 int id action_mode_close_button 0x7f0d002c
-int id action_settings 0x7f0d005a
+int id action_settings 0x7f0d0059
 int id activity_chooser_view_content 0x7f0d002d
 int id always 0x7f0d001b
 int id auto_focus 0x7f0d0003
 int id beginning 0x7f0d0017
-int id button_back 0x7f0d0054
+int id button_back 0x7f0d0053
 int id camera_btn 0x7f0d0051
-int id cancelBtn 0x7f0d0057
+int id cancelBtn 0x7f0d0056
 int id checkbox 0x7f0d0035
 int id clear 0x7f0d0049
 int id collapseActionView 0x7f0d001c
-int id confirmBtn 0x7f0d0058
+int id confirmBtn 0x7f0d0057
 int id decode 0x7f0d0004
 int id decode_failed 0x7f0d0005
 int id decode_succeeded 0x7f0d0006
@@ -296,7 +296,7 @@ int id end 0x7f0d0018
 int id expand_activities_button 0x7f0d002e
 int id expanded_menu 0x7f0d0034
 int id fragment 0x7f0d0052
-int id help_contents 0x7f0d0059
+int id help_contents 0x7f0d0058
 int id home 0x7f0d0007
 int id homeAsUp 0x7f0d0012
 int id icon 0x7f0d0032
@@ -314,7 +314,7 @@ int id name 0x7f0d0045
 int id never 0x7f0d001e
 int id none 0x7f0d001a
 int id normal 0x7f0d000f
-int id parsedResult 0x7f0d0056
+int id parsedResult 0x7f0d0055
 int id preview_view 0x7f0d004b
 int id progress_circular 0x7f0d0009
 int id progress_horizontal 0x7f0d000a
@@ -322,7 +322,6 @@ int id quit 0x7f0d000b
 int id radio 0x7f0d0037
 int id restart_preview 0x7f0d000c
 int id return_scan_result 0x7f0d000d
-int id scan_content 0x7f0d0053
 int id search_badge 0x7f0d003a
 int id search_bar 0x7f0d0039
 int id search_button 0x7f0d003b
@@ -344,7 +343,7 @@ int id studentName 0x7f0d0046
 int id submit_area 0x7f0d0041
 int id tabMode 0x7f0d0010
 int id text1 0x7f0d004f
-int id textview_title 0x7f0d0055
+int id textview_title 0x7f0d0054
 int id title 0x7f0d0033
 int id top_action_bar 0x7f0d0028
 int id up 0x7f0d0029

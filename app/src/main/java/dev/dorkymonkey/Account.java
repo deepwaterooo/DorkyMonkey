@@ -49,15 +49,14 @@ public class Account extends Activity {
             });
         signinBtn.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
-                    /*
-                      Intent simpleIntent = new Intent(); // this part could be broken
-                      simpleIntent.setClass(Account.this, MainActivity.class);
-                      Bundle simpleBundle = new Bundle();
-                      simpleBundle.putString("name", nameEditText.getText().toString().trim());
-                      simpleBundle.putString("id", idEditText.getText().toString().trim());
-                      simpleIntent.putExtras(simpleBundle);
-                      Account.this.finish();
-                    */
+
+                    Intent simpleIntent = new Intent(); // this part could be broken
+                    simpleIntent.setClass(Account.this, MainActivity.class);
+                    Bundle simpleBundle = new Bundle();
+                    simpleBundle.putString("name", nameEditText.getText().toString().trim());
+                    simpleBundle.putString("id", idEditText.getText().toString().trim());
+                    simpleIntent.putExtras(simpleBundle);
+
                     Thread thread = new Thread(new Runnable() {
                             @Override
                             public void run() {
@@ -85,12 +84,12 @@ public class Account extends Activity {
     
                                         if (line.substring(11, 12) == "St") {
                                             Looper.prepare();
-                                            Toast.makeText(Account.this, "Sign In FAILED!", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(Account.this, "Sign In FAILED!", Toast.LENGTH_LONG).show();
                                             Looper.loop();
                                             break;
                                         } else {
                                             Looper.prepare();
-                                            Toast.makeText(Account.this, "Sign In SUCCEED!", Toast.LENGTH_SHORT).show();                                                          Looper.loop();
+                                            Toast.makeText(Account.this, "Sign In SUCCEED!", Toast.LENGTH_LONG).show();                                                          Looper.loop();
                                             break;
                                         } 
                                     }

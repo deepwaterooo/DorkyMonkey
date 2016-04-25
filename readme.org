@@ -8,7 +8,7 @@
   - During 4/21/16 evening meeting, a view of QRCode information (date, course, course_code & check type: In/Out, together with a confirm button) are suggested to add before server call (which was not shown in mock), I am curretly thinking will implement this using fragments in camera activity, but used simple toast from thread instead. 
   - SignIn call sever and success/fail confirmation was done last night.
   - Want to implement fragments for QRCode parsed result, right now somewhere here or there still has bugs, working on it now, will need to add onClickListener to the two buttons before check in check out. 
-  - Report is tomorrow evening, I could still work on it tonight or tomorrow, but need to record a video before tomorrow evening's course review. 
+  - Report is tonight evening 6:00pm, I could still work on it tonight or tomorrow, but need to record a video before tomorrow evening's course review. 
 - 
 - I could simply include Zxing.jar for simplisity, but since I simplified package name firstly, I just manually added all the Necessary classes that are needed for compile. 
 - It's a course project that I try to implement all the necessary functionalities. If I could implement the app, I would want to spend time on some project that I am currently more interested. 
