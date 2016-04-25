@@ -57,17 +57,12 @@
 	android:layout_height="wrap_content"
 	android:layout_centerHorizontal="true"
 	android:src="@drawable/android"/>
+    
     <TextView
 	android:id="@+id/scan_content"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:textIsSelectable="true"
 	android:layout_centerHorizontal="true" />
-    <ImageView
-        android:id="@+id/qrcode_bitmap"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/result"/>
   </LinearLayout>
 </RelativeLayout>

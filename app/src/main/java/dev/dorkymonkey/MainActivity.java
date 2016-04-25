@@ -1,4 +1,3 @@
-
 package dev.dorkymonkey;
 
 import dev.dorkymonkey.Attendance;
@@ -27,16 +26,15 @@ import android.util.Log;
 public class MainActivity extends Activity implements OnClickListener {
 	private final static int SCANNIN_GREQUEST_CODE = 1;
     private ImageButton accountBtn, cameraBtn;
-    private TextView contentTxt;
+    private TextView contentTxt; // try to remove this one when fragment works
 	private ImageView mImageView;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-        //new Thread(runnable).start();
-        
-         // StrickMode trials work now, use regular thread method instead
+
+        // StrickMode trials work now, use regular thread method instead
         /*if (android.os.Build.VERSION.SDK_INT > 9) {  
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();  
             StrictMode.setThreadPolicy(policy);  
@@ -71,44 +69,15 @@ public class MainActivity extends Activity implements OnClickListener {
 				Bundle bundle = intent.getExtras(); // this section works
 				contentTxt.setText(bundle.getString("result"));
 				mImageView.setImageBitmap((Bitmap) intent.getParcelableExtra("bitmap"));   
-                
-                /*Bundle bundle = this.getIntent().getExtras(); // do NOT need to take care of this part so far
+
+                //Bundle bundle = this.getIntent().getExtras(); // do NOT need to take care of this part so far
+                /*Bundle bundle = intent.getExtras(); // do NOT need to take care of this part so far
                 String name = bundle.getString("name");
                 String id = bundle.getString("id");
                 Log.v("EditText name: ", name);
-                Log.v("EditText id: ", id); */
+                Log.v("EditText id: ", id);   */
+                
 
-                // for http get
-                Attendance att = new Attendance();
-                att.setCheckType("in");
-                att.setDate("2016-06-17");
-                att.setCourseCode("SWE 500");
-                att.setCourse("Software Engineering");
-                URL url = null;
-                ObjectOutputStream oos = null;
-                try {
-                    url = new URL("http://52.53.254.77:7777/"); 
-                    HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-                    connection.setDoInput(true);
-                    connection.setDoOutput(true);
-                    connection.setConnectTimeout(10000);
-                    connection.setReadTimeout(10000);
-                    connection.setRequestMethod("POST");
-                    oos = new ObjectOutputStream(connection.getOutputStream());
-                    oos.writeObject(att);
-                    InputStreamReader read = new InputStreamReader(connection.getInputStream()); 
-                    BufferedReader br = new BufferedReader(read);
-                    String line = "";
-                    while ((line = br.readLine()) != null) { // could parse the server feedback here, but don't have to for now
-                        Log.d("TAG", "line is " + line);
-                    }
-                    br.close();
-                    //read.close();  // which one is needed here, or all of them?
-                    connection.disconnect();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                } finally {
-                }
             }
         }  
     }

@@ -19,6 +19,8 @@ import java.io.ObjectOutputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import android.util.Log;
+import android.widget.Toast;
+import android.os.Looper;
 
 public class Account extends Activity {
     public String stdName;
@@ -27,14 +29,14 @@ public class Account extends Activity {
     private Button  signinBtn;
     private EditText nameEditText;
     private EditText idEditText;
-    public StringBuilder urlStr; 
+    //public StringBuilder urlStr; 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.accountview);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        urlStr = new StringBuilder();
+        //urlStr = new StringBuilder();
         nameEditText = (EditText)findViewById(R.id.studentName);
         idEditText = (EditText)findViewById(R.id.studentId);
         clearBtn = (Button)findViewById(R.id.clear);
@@ -48,35 +50,49 @@ public class Account extends Activity {
         signinBtn.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
                     /*
-                    Intent simpleIntent = new Intent(); // this part could be broken
-                    simpleIntent.setClass(Account.this, MainActivity.class);
-                    Bundle simpleBundle = new Bundle();
-                    simpleBundle.putString("name", nameEditText.getText().toString().trim());
-                    simpleBundle.putString("id", idEditText.getText().toString().trim());
-                    simpleIntent.putExtras(simpleBundle);
+                      Intent simpleIntent = new Intent(); // this part could be broken
+                      simpleIntent.setClass(Account.this, MainActivity.class);
+                      Bundle simpleBundle = new Bundle();
+                      simpleBundle.putString("name", nameEditText.getText().toString().trim());
+                      simpleBundle.putString("id", idEditText.getText().toString().trim());
+                      simpleIntent.putExtras(simpleBundle);
+                      Account.this.finish();
                     */
-                    // try server call first
-                    String [] words = nameEditText.getText().toString().trim().split(" ");
-                    StringBuilder res = new StringBuilder(idEditText.getText().toString().trim());
-                    res.append("?name=");
-                    for (int i = 0; i < words.length - 1; i++) 
-                        res.append(words[i]).append("_");
-                    res.append(words[words.length - 1]);
-                    urlStr.append("http://52.53.254.77:7777/signinstudent/").append(res);
-                    //System.out.println("urlStr.toString(): " + urlStr.toString()); 
-
                     Thread thread = new Thread(new Runnable() {
                             @Override
                             public void run() {
                                 HttpURLConnection connection = null;
                                 try {
+                                    String [] words = nameEditText.getText().toString().trim().split(" ");
+                                    StringBuilder res = new StringBuilder(idEditText.getText().toString().trim());
+                                    res.append("?name=");
+                                    for (int i = 0; i < words.length - 1; i++) 
+                                        res.append(words[i]).append("_");
+                                    res.append(words[words.length - 1]);
+                                    StringBuilder urlStr = new StringBuilder();
+                                    urlStr.append("http://52.53.254.77:7777/signinstudent/").append(res);
+                                    System.out.println("urlStr.toString(): " + urlStr.toString());
+
                                     URL url = new URL(urlStr.toString()); 
                                     connection = (HttpURLConnection) url.openConnection();
                                     InputStreamReader read = new InputStreamReader(connection.getInputStream());
                                     BufferedReader br = new BufferedReader(read);
-                                    String line = "";
-                                    while ((line = br.readLine()) != null) {
-                                        Log.d("TAG", "line is " + line);
+                                    //String line = ""; // skip the first line
+                                    String line = br.readLine();
+                                    while ((line = br.readLine()) != null) { // parse json object later
+                                        //Log.d("TAG", "line is " + line);
+                                        System.out.println("line.substring(11, 12): " + line.substring(11, 12));
+    
+                                        if (line.substring(11, 12) == "St") {
+                                            Looper.prepare();
+                                            Toast.makeText(Account.this, "Sign In FAILED!", Toast.LENGTH_SHORT).show();
+                                            Looper.loop();
+                                            break;
+                                        } else {
+                                            Looper.prepare();
+                                            Toast.makeText(Account.this, "Sign In SUCCEED!", Toast.LENGTH_SHORT).show();                                                          Looper.loop();
+                                            break;
+                                        } 
                                     }
                                     br.close();
                                     //read.close();  // which one is needed here, or all of them?
@@ -89,6 +105,7 @@ public class Account extends Activity {
                             }
                         });
                     thread.start();
+                    Account.this.finish();
                 }
             });
     }
