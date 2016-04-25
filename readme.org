@@ -5,6 +5,7 @@
 
 * most recent comments
 - suggested views: 
+  - 90% done, need an json parse now. 
   - During 4/21/16 evening meeting, a view of QRCode information (date, course, course_code & check type: In/Out, together with a confirm button) are suggested to add before server call (which was not shown in mock), I am curretly thinking will implement this using fragments in camera activity, but used simple toast from thread instead. 
   - SignIn call sever and success/fail confirmation was done last night.
   - Want to implement fragments for QRCode parsed result, right now somewhere here or there still has bugs, working on it now, will need to add onClickListener to the two buttons before check in check out. 

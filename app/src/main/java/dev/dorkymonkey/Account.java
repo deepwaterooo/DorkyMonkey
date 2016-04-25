@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
-
 import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
@@ -29,14 +28,13 @@ public class Account extends Activity {
     private Button  signinBtn;
     private EditText nameEditText;
     private EditText idEditText;
-    //public StringBuilder urlStr; 
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.accountview);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        //urlStr = new StringBuilder();
         nameEditText = (EditText)findViewById(R.id.studentName);
         idEditText = (EditText)findViewById(R.id.studentId);
         clearBtn = (Button)findViewById(R.id.clear);
@@ -49,14 +47,14 @@ public class Account extends Activity {
             });
         signinBtn.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View view) {
-
                     Intent simpleIntent = new Intent(); // this part could be broken
                     simpleIntent.setClass(Account.this, MainActivity.class);
                     Bundle simpleBundle = new Bundle();
                     simpleBundle.putString("name", nameEditText.getText().toString().trim());
                     simpleBundle.putString("id", idEditText.getText().toString().trim());
                     simpleIntent.putExtras(simpleBundle);
-
+                    setResult(RESULT_OK, simpleIntent);
+                    
                     Thread thread = new Thread(new Runnable() {
                             @Override
                             public void run() {

@@ -1,6 +1,5 @@
 package dev.dorkymonkey;
 
-import dev.dorkymonkey.Attendance;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -27,6 +26,15 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.provider.Settings.Secure;
 
+import java.net.URL;
+import java.net.HttpURLConnection;
+import java.io.ObjectOutputStream;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+import android.util.Log;
+import android.widget.Toast;
+import android.os.Looper;
+
 public class MainActivity extends Activity implements OnClickListener {
 	private final static int SCANNIN_GREQUEST_CODE = 1;
     private final static String [] checkType = {"checkinstudent", "checkoutstudent"};
@@ -35,9 +43,10 @@ public class MainActivity extends Activity implements OnClickListener {
     private Button cancelBtn; 
     private Button confirmBtn;
     private String deviceId;// = Secure.getString(getContext().getContentResolver(), Secure.ANDROID_ID);
-    private volatile String name;
-    private volatile String id;
-     
+    private boolean checkedIn;
+    private String name;
+    private String id;
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -46,6 +55,7 @@ public class MainActivity extends Activity implements OnClickListener {
         accountBtn.setOnClickListener(this);
         cameraBtn = (ImageButton)findViewById(R.id.camera_btn);
         cameraBtn.setOnClickListener(this);
+        checkedIn = false;
 
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction().add(R.id.fragment, new MyFragment()).commit();
@@ -56,7 +66,8 @@ public class MainActivity extends Activity implements OnClickListener {
         switch (v.getId()) {
         case R.id.account_btn: 
             Intent a = new Intent(this, Account.class);
-            startActivity(a);
+            startActivityForResult(a, 2);
+            //startActivity(a);
             break;
         case R.id.camera_btn:
             Intent intent = new Intent();
@@ -72,22 +83,26 @@ public class MainActivity extends Activity implements OnClickListener {
         case R.id.confirmBtn:
             deviceId = Secure.getString(v.getContext().getContentResolver(), Secure.ANDROID_ID); // I/System.out: deviceId: cb023ed0a6983fc4
             System.out.println("deviceId: " + deviceId);
-            /*
+
             Thread thread = new Thread(new Runnable() {
                     @Override
                     public void run() {
                         HttpURLConnection connection = null;
                         try {
-                            String [] words = nameEditText.getText().toString().trim().split(" ");
-                            StringBuilder res = new StringBuilder(idEditText.getText().toString().trim());
-                            res.append("?name=");
-                            for (int i = 0; i < words.length - 1; i++) 
-                                res.append(words[i]).append("_");
-                            res.append(words[words.length - 1]);
                             StringBuilder urlStr = new StringBuilder();
-                            urlStr.append("http://52.53.254.77:7777/signinstudent/").append(res);
+                            urlStr.append("http://52.53.254.77:7777/");
+                            if (!checkedIn)
+                                urlStr.append(checkType[0]);
+                            else urlStr.append(checkType[1]);
+                            urlStr.append("/SWE500?sid=");
                             System.out.println("urlStr.toString(): " + urlStr.toString());
-
+                            urlStr.append(id);
+                            System.out.println("after id urlStr.toString(): " + urlStr.toString());
+                            urlStr.append("&flag=deviceid&addi=");
+                            urlStr.append(deviceId);
+                            System.out.println("after Device id urlStr.toString(): " + urlStr.toString());
+                            
+                            //System.out.println("urlStr.toString(): " + urlStr.toString());
                             URL url = new URL(urlStr.toString()); 
                             connection = (HttpURLConnection) url.openConnection();
                             InputStreamReader read = new InputStreamReader(connection.getInputStream());
@@ -100,12 +115,12 @@ public class MainActivity extends Activity implements OnClickListener {
     
                                 if (line.substring(11, 12) == "St") {
                                     Looper.prepare();
-                                    Toast.makeText(Account.this, "Sign In FAILED!", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(MainActivity.this, "Sign In FAILED!", Toast.LENGTH_LONG).show();
                                     Looper.loop();
                                     break;
                                 } else {
                                     Looper.prepare();
-                                    Toast.makeText(Account.this, "Sign In SUCCEED!", Toast.LENGTH_LONG).show();                                                          Looper.loop();
+                                    Toast.makeText(MainActivity.this, "Sign In SUCCEED!", Toast.LENGTH_LONG).show();                                                          Looper.loop();
                                     break;
                                 } 
                             }
@@ -120,11 +135,9 @@ public class MainActivity extends Activity implements OnClickListener {
                     }
                 });
             thread.start();
-            Account.this.finish();
+            //Account.this.finish();
         }
-            */
-            break;
-        }
+        //break;
     }
 
     @Override
@@ -145,6 +158,16 @@ public class MainActivity extends Activity implements OnClickListener {
                 cancelBtn.setVisibility(View.VISIBLE);
                 confirmBtn.setVisibility(View.VISIBLE);
             }
-        }  
+            break;
+        case 2:
+            if (resultCode == RESULT_OK) {
+                System.out.println("I got here once");
+                Bundle bundle = intent.getExtras(); // this section works
+                System.out.println("bundle.getString(\"name\"): " + bundle.getString("name"));
+                System.out.println("bundle.getString(\"id\"): " + bundle.getString("id"));
+                this.id = bundle.getString("id").trim().toString();
+                this.name = bundle.getString("name").trim().toString();
+            }
+        }
     }
 }
