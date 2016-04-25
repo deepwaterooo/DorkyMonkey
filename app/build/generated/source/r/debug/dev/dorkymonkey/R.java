@@ -833,12 +833,14 @@ containing a value of this type.
         public static final int accountadd=0x7f020058;
         public static final int android=0x7f020059;
         public static final int androidcamera=0x7f02005a;
-        public static final int ic_launcher=0x7f02005b;
-        public static final int mm_title_back_btn=0x7f02005c;
-        public static final int mm_title_back_focused=0x7f02005d;
-        public static final int mm_title_back_normal=0x7f02005e;
-        public static final int mm_title_back_pressed=0x7f02005f;
-        public static final int mmtitle_bg_alpha=0x7f020060;
+        public static final int edittextrect=0x7f02005b;
+        public static final int ic_launcher=0x7f02005c;
+        public static final int mm_title_back_btn=0x7f02005d;
+        public static final int mm_title_back_focused=0x7f02005e;
+        public static final int mm_title_back_normal=0x7f02005f;
+        public static final int mm_title_back_pressed=0x7f020060;
+        public static final int mmtitle_bg_alpha=0x7f020061;
+        public static final int textviewrect=0x7f020062;
     }
     public static final class id {
         public static final int account_btn=0x7f0d004f;

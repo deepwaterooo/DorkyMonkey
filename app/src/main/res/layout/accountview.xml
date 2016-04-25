@@ -13,7 +13,7 @@
 
   <LinearLayout
       android:orientation="horizontal" 
-      android:layout_width="wrap_content"
+      android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:layout_gravity="center" >
 
@@ -22,11 +22,12 @@
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:text="Student Name: "
-	android:textIsSelectable="true"
-	android:layout_centerHorizontal="true"
+	android:textIsSelectable="false"
+	android:layout_centerHorizontal="false"
 	android:layout_below="@id/img_accountadd" />
     <EditText
 	android:id="@+id/studentName"
+	android:background="@drawable/textviewrect"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:inputType="textCapWords" />
@@ -34,18 +35,19 @@
 
   <LinearLayout
       android:orientation="horizontal" 
-      android:layout_width="wrap_content"
+      android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:layout_gravity="center" >
     <TextView
 	android:id="@+id/id"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
-	android:text="Student Id: "
-	android:textIsSelectable="true"
+	android:text="  Student Id: "
+	android:textIsSelectable="false"
 	android:layout_centerHorizontal="true"/>
     <EditText
 	android:id="@+id/studentId"
+	android:background="@drawable/textviewrect"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 	android:inputType="number" />

@@ -1,3 +1,4 @@
+
 package dev.dorkymonkey;
 
 import dev.dorkymonkey.Attendance;
@@ -67,16 +68,15 @@ public class MainActivity extends Activity implements OnClickListener {
         switch (requestCode) {
         case SCANNIN_GREQUEST_CODE:
             if (resultCode == RESULT_OK) {
-                /*
 				Bundle bundle = intent.getExtras(); // this section works
 				contentTxt.setText(bundle.getString("result"));
-				mImageView.setImageBitmap((Bitmap) intent.getParcelableExtra("bitmap"));   */
+				mImageView.setImageBitmap((Bitmap) intent.getParcelableExtra("bitmap"));   
                 
-                Bundle bundle = this.getIntent().getExtras(); 
+                /*Bundle bundle = this.getIntent().getExtras(); // do NOT need to take care of this part so far
                 String name = bundle.getString("name");
                 String id = bundle.getString("id");
                 Log.v("EditText name: ", name);
-                Log.v("EditText id: ", id);
+                Log.v("EditText id: ", id); */
 
                 // for http get
                 Attendance att = new Attendance();
