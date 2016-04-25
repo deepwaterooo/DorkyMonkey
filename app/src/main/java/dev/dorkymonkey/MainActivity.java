@@ -115,12 +115,12 @@ public class MainActivity extends Activity implements OnClickListener {
     
                                 if (line.substring(11, 12) == "St") {
                                     Looper.prepare();
-                                    Toast.makeText(MainActivity.this, "Sign In FAILED!", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(MainActivity.this, "Check In FAILED!", Toast.LENGTH_LONG).show();
                                     Looper.loop();
                                     break;
                                 } else {
                                     Looper.prepare();
-                                    Toast.makeText(MainActivity.this, "Sign In SUCCEED!", Toast.LENGTH_LONG).show();                                                          Looper.loop();
+                                    Toast.makeText(MainActivity.this, "Check In SUCCEED!", Toast.LENGTH_LONG).show();                                                          Looper.loop();
                                     break;
                                 } 
                             }

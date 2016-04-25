@@ -5,10 +5,9 @@
 
 * most recent comments
 - suggested views: 
-  - 90% done, need an json parse now. 
-  - During 4/21/16 evening meeting, a view of QRCode information (date, course, course_code & check type: In/Out, together with a confirm button) are suggested to add before server call (which was not shown in mock), I am curretly thinking will implement this using fragments in camera activity, but used simple toast from thread instead. 
-  - SignIn call sever and success/fail confirmation was done last night.
-  - Want to implement fragments for QRCode parsed result, right now somewhere here or there still has bugs, working on it now, will need to add onClickListener to the two buttons before check in check out. 
+  - 90% done, need an json parser for android now for extracting course variable and check type variable (In/Out). 
+  - A temporatory video was put at https://www.youtube.com/watch?v=EcUU0I--SAs, but supposed to change when got the last json parse works and get layout looks better. 
+  - One of my teammates didn't want to work on iOS side, he wrote test cases and test automation for the app instead, will bring my linux mint 17 laptop tonight to get all the environment (including Eclipse, which was installed in my linux machine) ready, so that I could use his test case/test automations as my Android App testing, testing framework study starting point. 
   - Report is tonight evening 6:00pm, I could still work on it tonight or tomorrow, but need to record a video before tomorrow evening's course review. 
 - 
 - I could simply include Zxing.jar for simplisity, but since I simplified package name firstly, I just manually added all the Necessary classes that are needed for compile. 
