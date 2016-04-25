@@ -20,32 +20,31 @@ import java.io.ObjectOutputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import android.util.Log;
-//import android.os.StrictMode;
-//import android.os.StrictMode.ThreadPolicy;
+import android.app.Fragment;
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener {
 	private final static int SCANNIN_GREQUEST_CODE = 1;
     private ImageButton accountBtn, cameraBtn;
-    private TextView contentTxt; // try to remove this one when fragment works
-	private ImageView mImageView;
+    private TextView contentTxt;
+    private boolean getNewResult = false;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-        // StrickMode trials work now, use regular thread method instead
-        /*if (android.os.Build.VERSION.SDK_INT > 9) {  
-            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();  
-            StrictMode.setThreadPolicy(policy);  
-            }   */
         
         accountBtn = (ImageButton)findViewById(R.id.account_btn);
         accountBtn.setOnClickListener(this);
         cameraBtn = (ImageButton)findViewById(R.id.camera_btn);
         cameraBtn.setOnClickListener(this);
-        contentTxt = (TextView)findViewById(R.id.scan_content);
-        mImageView = (ImageView)findViewById(R.id.qrcode_bitmap);
+
+        if (savedInstanceState == null) {
+            //if (getNewResult) {
+            getFragmentManager().beginTransaction().add(R.id.fragment, new MyFragment()).commit();
+        }
 	}
 
     public void onClick(View v) {
@@ -66,18 +65,14 @@ public class MainActivity extends Activity implements OnClickListener {
         switch (requestCode) {
         case SCANNIN_GREQUEST_CODE:
             if (resultCode == RESULT_OK) {
-				Bundle bundle = intent.getExtras(); // this section works
+                getNewResult = true;
+                Bundle bundle = intent.getExtras(); // this section works
+                System.out.println("bundle.getString(\"result\"): " + bundle.getString("result"));
+                contentTxt = (TextView) getFragmentManager().findFragmentById(R.id.fragment).getView().findViewById(R.id.parsedResult);
 				contentTxt.setText(bundle.getString("result"));
-				mImageView.setImageBitmap((Bitmap) intent.getParcelableExtra("bitmap"));   
-
-                //Bundle bundle = this.getIntent().getExtras(); // do NOT need to take care of this part so far
-                /*Bundle bundle = intent.getExtras(); // do NOT need to take care of this part so far
-                String name = bundle.getString("name");
-                String id = bundle.getString("id");
-                Log.v("EditText name: ", name);
-                Log.v("EditText id: ", id);   */
+                Button cancelBtn = (Button) getFragmentManager().findFragmentById(R.id.fragment).getView().findViewById(R.id.cancelBtn);
+                Button confirmBtn = (Button) getFragmentManager().findFragmentById(R.id.fragment).getView().findViewById(R.id.confirmBtn);
                 
-
             }
         }  
     }
