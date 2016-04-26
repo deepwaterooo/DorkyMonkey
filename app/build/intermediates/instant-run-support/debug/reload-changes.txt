@@ -1,7 +1,0 @@
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/Account$2$override.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/Account$override.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/MainActivity$override.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/MainActivity$1$override.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/Account$2$1$override.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/dev/dorkymonkey/Account$1$override.class

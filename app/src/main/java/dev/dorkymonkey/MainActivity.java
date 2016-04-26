@@ -35,6 +35,12 @@ import android.util.Log;
 import android.widget.Toast;
 import android.os.Looper;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import org.json.JSONObject;
+import org.json.JSONArray;
+import org.json.JSONException;
+
 public class MainActivity extends Activity implements OnClickListener {
 	private final static int SCANNIN_GREQUEST_CODE = 1;
     private final static String [] checkType = {"checkinstudent", "checkoutstudent"};
@@ -42,10 +48,17 @@ public class MainActivity extends Activity implements OnClickListener {
     private TextView contentTxt;
     private Button cancelBtn; 
     private Button confirmBtn;
-    private String deviceId;// = Secure.getString(getContext().getContentResolver(), Secure.ANDROID_ID);
+    private String deviceId;
     private boolean checkedIn;
     private String name;
     private String id;
+    private String qrString;
+
+    private static final String TAG_DATE = "date";
+    private static final String TAG_COURSE = "course";
+    private static final String TAG_COURSE_CODE = "course_code";
+    private static final String TAG_CHECK = "check";
+    HashMap<String, String> obj;// = ParseJSON(qrString);
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +75,30 @@ public class MainActivity extends Activity implements OnClickListener {
         }
 	}
 
+    private HashMap<String, String> ParseJSON(String json) {
+        if (json != null) {
+            try {
+                HashMap<String, String> obj = new HashMap<String, String>();
+                JSONObject c = new JSONObject(json);
+                String date = c.getString(TAG_DATE);
+                String course = c.getString(TAG_COURSE);
+                String course_code = c.getString(TAG_COURSE_CODE);
+                String check = c.getString(TAG_CHECK);
+                obj.put(TAG_DATE, date);
+                obj.put(TAG_COURSE, course);
+                obj.put(TAG_COURSE_CODE, course_code);
+                obj.put(TAG_CHECK, check);
+                return obj;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return null;
+            }
+        } else {
+            Log.e("ServiceHandler", "No data received from HTTP request");
+            return null;
+        }
+    }
+    
     public void onClick(View v) {
         switch (v.getId()) {
         case R.id.account_btn: 
@@ -83,7 +120,18 @@ public class MainActivity extends Activity implements OnClickListener {
         case R.id.confirmBtn:
             deviceId = Secure.getString(v.getContext().getContentResolver(), Secure.ANDROID_ID); // I/System.out: deviceId: cb023ed0a6983fc4
             System.out.println("deviceId: " + deviceId);
+            
+            // try parse the string to a JSON object
+            System.out.println("qrString: " + qrString);
 
+            obj = ParseJSON(qrString);
+            /*
+            System.out.println("qrString: " + qrString);
+            for (int i = 0; i < obj.size(); i++) {
+                System.out.println("obj.get(\"TAG_DATE\"): " + obj.get("TAG_DATE"));
+                System.out.println("obj.get(\"TAG_COURSE\"): " + obj.get("TAG_COURSE"));
+                } */
+            
             Thread thread = new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -94,7 +142,14 @@ public class MainActivity extends Activity implements OnClickListener {
                             if (!checkedIn)
                                 urlStr.append(checkType[0]);
                             else urlStr.append(checkType[1]);
+
                             urlStr.append("/SWE500?sid=");
+                            /*
+                            urlStr.append("/");
+                            String course = obj.get("TAG_COURSE");
+                            urlStr.append(course);
+                            urlStr.append("?sid=");
+                            */
                             System.out.println("urlStr.toString(): " + urlStr.toString());
                             urlStr.append(id);
                             System.out.println("after id urlStr.toString(): " + urlStr.toString());
@@ -125,17 +180,17 @@ public class MainActivity extends Activity implements OnClickListener {
                                 } 
                             }
                             br.close();
-                            //read.close();  // which one is needed here, or all of them?
                             connection.disconnect();
                         } catch (Exception e) {
                             e.printStackTrace();
                         } finally {
                             if (connection != null) connection.disconnect();
                         }
+
                     }
                 });
             thread.start();
-            //Account.this.finish();
+            // 
         }
         //break;
     }
@@ -147,7 +202,10 @@ public class MainActivity extends Activity implements OnClickListener {
         case SCANNIN_GREQUEST_CODE:
             if (resultCode == RESULT_OK) {
                 Bundle bundle = intent.getExtras(); // this section works
-                System.out.println("bundle.getString(\"result\"): " + bundle.getString("result"));
+                qrString = bundle.getString("result");
+                //System.out.println("bundle.getString(\"result\"): " + bundle.getString("result"));
+                //System.out.println("qrString: " + qrString);
+
                 contentTxt = (TextView) getFragmentManager().findFragmentById(R.id.fragment).getView().findViewById(R.id.parsedResult);
 				contentTxt.setText(bundle.getString("result"));
                 
@@ -161,8 +219,7 @@ public class MainActivity extends Activity implements OnClickListener {
             break;
         case 2:
             if (resultCode == RESULT_OK) {
-                System.out.println("I got here once");
-                Bundle bundle = intent.getExtras(); // this section works
+                Bundle bundle = intent.getExtras(); 
                 System.out.println("bundle.getString(\"name\"): " + bundle.getString("name"));
                 System.out.println("bundle.getString(\"id\"): " + bundle.getString("id"));
                 this.id = bundle.getString("id").trim().toString();

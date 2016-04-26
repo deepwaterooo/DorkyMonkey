@@ -5,6 +5,7 @@
 
 * most recent comments
 - suggested views: 
+  - Without big monitor at home, efficiency was significantly reduced. But will fix this JSON parse bug later. (current parser failed to parse correctly.)
   - 90% done, need an json parser for android now for extracting course variable and check type variable (In/Out). 
   - A temporatory video was put at https://www.youtube.com/watch?v=EcUU0I--SAs, but supposed to change when got the last json parse works and get layout looks better. 
   - One of my teammates didn't want to work on iOS side, he wrote test cases and test automation for the app instead, will bring my linux mint 17 laptop tonight to get all the environment (including Eclipse, which was installed in my linux machine) ready, so that I could use his test case/test automations as my Android App testing, testing framework study starting point. 

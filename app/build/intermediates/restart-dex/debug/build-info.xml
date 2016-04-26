@@ -4,29 +4,42 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="1461621975819805000" >
+    timestamp="1461632653205450000"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="701" />
+        duration="756" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="662" />
     <task
         name="instant-run-transform"
-        duration="36" />
+        duration="8" />
     <task
         name="verifier"
-        duration="10" />
+        duration="1" />
 
     <artifact
-        location="/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="1461621975819805000" >
+    <build timestamp="1461632132354753000" >
         <artifact
             location="/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="1461632435312011000" >
+        <artifact
+            location="/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1461632653205450000"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

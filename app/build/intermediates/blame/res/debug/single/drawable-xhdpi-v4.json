@@ -64,12 +64,12 @@
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_list_divider_holo_light.9.png"
     },
     {
-        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png",
-        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png"
-    },
-    {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_ab_default_holo_dark.9.png",
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_normal_holo_light.png",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ic_menu_moreoverflow_normal_holo_light.png"
     },
     {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_commit_search_api_holo_dark.png",
@@ -96,24 +96,24 @@
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_selected_holo.9.png",
-        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_tab_selected_holo.9.png"
-    },
-    {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_ab_focused_holo_light.9.png",
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_selected_holo.9.png",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_tab_selected_holo.9.png"
     },
     {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_spinner_ab_default_holo_light.9.png",
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_spinner_ab_default_holo_light.9.png"
     },
     {
-        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_selected_focused_holo.9.png",
-        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png"
-    },
-    {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_solid_light_holo.9.png",
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ab_solid_light_holo.9.png"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_tab_selected_focused_holo.9.png",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_tab_selected_focused_holo.9.png"
     },
     {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_holo_light.png",
@@ -200,12 +200,12 @@
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_bottom_holo_dark.9.png",
-        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ab_stacked_solid_dark_holo.9.png",
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ab_stacked_solid_dark_holo.9.png"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_bottom_holo_dark.9.png",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_cab_background_bottom_holo_dark.9.png"
     },
     {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_bottom_holo_light.9.png",
@@ -264,12 +264,12 @@
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ab_solid_dark_holo.9.png"
     },
     {
-        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_holo_light.png",
-        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ic_search_api_holo_light.png"
-    },
-    {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_holo_dark.9.png",
         "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_textfield_search_default_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_search_api_holo_light.png",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/drawable-xhdpi/abc_ic_search_api_holo_light.png"
     },
     {
         "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_go_search_api_holo_light.png",
