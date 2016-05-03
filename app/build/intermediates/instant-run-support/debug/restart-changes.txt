@@ -1,2 +1,0 @@
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/dev/dorkymonkey/MainActivity$1.class
-CHANGED,/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/dev/dorkymonkey/MainActivity.class

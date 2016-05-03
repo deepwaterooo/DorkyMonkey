@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/dorkyDeepwateroooWang/app/build/intermediates/res/merged/debug/raw/beep.ogg",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/dorkyDeepwateroooWang/app/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/raw/realm_properties",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/raw/realm_properties"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/dorkyDeepwateroooWang/app/build/intermediates/res/merged/debug/raw/realm_properties",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/dorkyDeepwateroooWang/app/src/main/res/raw/realm_properties"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/dorkyDeepwateroooWang/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/qunyan/AndroidStudioProjects/DorkyMonkey/dorkyDeepwateroooWang/app/src/main/res/menu/main.xml"
+    }
+]
