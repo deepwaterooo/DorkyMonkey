@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+  
+{% block content %}
+  <h2>Change Status</h2>
+    <form action="{{ url_for('changestatus') }}" method=post>
+     
+    {{ form.course.label }}
+    {{ form.course }} 
+    {{ form.time.label }}
+    {{ form.time }} 
+    {{ form.student.label }}
+    {{ form.student }} 
+    {{ form.att.label  }}
+    {{ form.att }}
+    {{ form.change }}
+  </form>
+{% endblock %}
